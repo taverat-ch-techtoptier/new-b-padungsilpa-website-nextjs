@@ -64,6 +64,7 @@ import { TabButton } from "@plasmicpkgs/plasmic-tabs";
 import Button from "../../Button"; // plasmic-import: lBHNzts6tFyj/component
 import { SliderWrapper } from "@plasmicpkgs/react-slick";
 import { sliderHelpers as SliderWrapper_Helpers } from "@plasmicpkgs/react-slick";
+import Test from "../../Test"; // plasmic-import: N8x7vUKS4T3n/component
 import Footer2 from "../../Footer2"; // plasmic-import: 9pDOvBRTOpt9/component
 
 import { useScreenVariants as useScreenVariants_2YPqM3KDWg } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: 2yPqM3-kD-WG/globalVariant
@@ -100,6 +101,8 @@ export type PlasmicProductAndService__OverridesType = {
   content?: Flex__<"div">;
   foreground?: Flex__<"div">;
   sliderCarousel?: Flex__<typeof SliderWrapper>;
+  potential?: Flex__<"div">;
+  left2?: Flex__<"div">;
   footer2?: Flex__<typeof Footer2>;
 };
 
@@ -244,7 +247,7 @@ function PlasmicProductAndService__RenderFunc(props: {
               >
                 <Button
                   className={classNames("__wab_instance", sty.button__iXIjL)}
-                  link={`/งานก่อสร้างสถานีบริการน้ำมันครบวงจร`}
+                  link={`/Fuel Service Construction`}
                 >
                   <div
                     className={classNames(
@@ -1265,6 +1268,497 @@ function PlasmicProductAndService__RenderFunc(props: {
               </Stack__>
             </div>
           </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"potential"}
+            data-plasmic-override={overrides.potential}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.potential)}
+          >
+            <div className={classNames(projectcss.all, sty.freeBox__jh0RD)}>
+              <div className={classNames(projectcss.all, sty.freeBox___3Wgl)}>
+                <Stack__
+                  as={"div"}
+                  data-plasmic-name={"left2"}
+                  data-plasmic-override={overrides.left2}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.left2)}
+                >
+                  <h2
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.h2,
+                      projectcss.__wab_text,
+                      sty.h2__jO7Jv
+                    )}
+                  >
+                    {hasVariant(globalVariants, "screen", "mobileOnly") ? (
+                      <React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ color: "var(--token-Yq556PvPjGii)" }}
+                        >
+                          {
+                            "\u0e15\u0e25\u0e2d\u0e14\u0e23\u0e30\u0e22\u0e30\u0e40\u0e27\u0e25\u0e32\u0e01\u0e27\u0e48\u0e32 50 \u0e1b\u0e35 \u0e01\u0e25\u0e38\u0e48\u0e21\u0e1a\u0e23\u0e34\u0e29\u0e31\u0e17\u0e1c\u0e14\u0e38\u0e07\u0e28\u0e34\u0e25\u0e1b\u0e4c\r\u00a0\u0e04\u0e37\u0e2d\u0e1c\u0e39\u0e49\u0e40\u0e0a\u0e35\u0e48\u0e22\u0e27\u0e0a\u0e32\u0e0d\u0e43\u0e19\u0e18\u0e38\u0e23\u0e01\u0e34\u0e08\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19\u0e04\u0e23\u0e1a\u0e27\u0e07\u0e08\u0e23"
+                          }
+                        </span>
+                      </React.Fragment>
+                    ) : (
+                      <React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ color: "var(--token-LePsFgXAH3gN)" }}
+                        >
+                          {
+                            "\u0e15\u0e25\u0e2d\u0e14\u0e23\u0e30\u0e22\u0e30\u0e40\u0e27\u0e25\u0e32\u0e01\u0e27\u0e48\u0e32 50 \u0e1b\u0e35 \u0e01\u0e25\u0e38\u0e48\u0e21\u0e1a\u0e23\u0e34\u0e29\u0e31\u0e17\u0e1c\u0e14\u0e38\u0e07\u0e28\u0e34\u0e25\u0e1b\u0e4c\r"
+                          }
+                        </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ color: "var(--token-LePsFgXAH3gN)" }}
+                        >
+                          {
+                            "\u0e04\u0e37\u0e2d\u0e1c\u0e39\u0e49\u0e40\u0e0a\u0e35\u0e48\u0e22\u0e27\u0e0a\u0e32\u0e0d\u0e43\u0e19\u0e18\u0e38\u0e23\u0e01\u0e34\u0e08\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19\u0e04\u0e23\u0e1a\u0e27\u0e07\u0e08\u0e23"
+                          }
+                        </span>
+                      </React.Fragment>
+                    )}
+                  </h2>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text___6FjyU
+                    )}
+                  >
+                    <React.Fragment>
+                      <React.Fragment>
+                        {
+                          "\u0e01\u0e25\u0e38\u0e48\u0e21\u0e1a\u0e23\u0e34\u0e29\u0e31\u0e17\u0e1c\u0e14\u0e38\u0e07\u0e28\u0e34\u0e25\u0e1b\u0e4c\u0e44\u0e14\u0e49\u0e1e\u0e31\u0e12\u0e19\u0e32\u0e41\u0e1a\u0e1a\u0e16\u0e31\u0e07\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19\u0e43\u0e15\u0e49\u0e14\u0e34\u0e19\u0e41\u0e25\u0e30\u0e2d\u0e38\u0e1b\u0e01\u0e23\u0e13\u0e4c\u0e17\u0e35\u0e48\u0e40\u0e01\u0e35\u0e48\u0e22\u0e27\u0e02\u0e49\u0e2d\u0e07\u0e15\u0e48\u0e32\u0e07\u0e46\u0e2d\u0e22\u0e48\u0e32\u0e07\u0e15\u0e48\u0e2d\u0e40\u0e19\u0e37\u0e48\u0e2d\u0e07 \u0e23\u0e27\u0e21\u0e17\u0e31\u0e49\u0e07\u0e22\u0e31\u0e07\u0e1e\u0e31\u0e12\u0e19\u0e32\u0e01\u0e32\u0e23\u0e01\u0e32\u0e23\u0e01\u0e48\u0e2d\u0e2a\u0e23\u0e49\u0e32\u0e07\u0e2a\u0e16\u0e32\u0e19\u0e35\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19 \u0e43\u0e2b\u0e49\u0e44\u0e14\u0e49\u0e21\u0e32\u0e15\u0e23\u0e10\u0e32\u0e19\u0e2a\u0e39\u0e07\u0e2a\u0e38\u0e14 \u0e17\u0e31\u0e49\u0e07\u0e43\u0e19\u0e14\u0e49\u0e32\u0e19\u0e04\u0e38\u0e13\u0e20\u0e32\u0e1e \u0e41\u0e25\u0e30\u0e04\u0e27\u0e32\u0e21\u0e1b\u0e25\u0e2d\u0e14\u0e20\u0e31\u0e22 \u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e25\u0e39\u0e01\u0e04\u0e49\u0e32 \u0e1c\u0e39\u0e49\u0e23\u0e31\u0e1a\u0e40\u0e2b\u0e21\u0e32 \u0e41\u0e25\u0e30 \u0e1c\u0e39\u0e49\u0e04\u0e49\u0e32\u0e2d\u0e37\u0e48\u0e19\u0e46 \u0e17\u0e35\u0e48\u0e40\u0e01\u0e35\u0e48\u0e22\u0e27\u0e02\u0e49\u0e2d\u0e07\u0e01\u0e31\u0e1a\u0e07\u0e32\u0e19\u0e2a\u0e16\u0e32\u0e19\u0e35\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19\u0e20\u0e32\u0e22\u0e43\u0e15\u0e49\u0e19\u0e42\u0e22\u0e1a\u0e32\u0e22\u0e17\u0e35\u0e48\u0e27\u0e48\u0e32 "
+                        }
+                      </React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{
+                          fontWeight: 700,
+                          color: "var(--token-I9SVQgz08HdN)"
+                        }}
+                      >
+                        {
+                          "\u201d\u0e16\u0e39\u0e01\u0e15\u0e49\u0e2d\u0e07 \u0e16\u0e39\u0e01\u0e15\u0e31\u0e07\u0e04\u0e4c \u0e17\u0e31\u0e19\u0e40\u0e27\u0e25\u0e32 \u0e1b\u0e25\u0e2d\u0e14\u0e20\u0e31\u0e22\u201d"
+                        }
+                      </span>
+                    </React.Fragment>
+                  </div>
+                  <Stack__
+                    as={PlasmicLink__}
+                    hasGap={true}
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      sty.link___9UJss
+                    )}
+                    component={Link}
+                    href={`/contact-us`}
+                    platform={"nextjs"}
+                  >
+                    {false ? (
+                      <IconIcon2
+                        className={classNames(projectcss.all, sty.svg__t9G)}
+                        role={"img"}
+                      />
+                    ) : null}
+                    {false ? (
+                      <IconIcon2
+                        className={classNames(projectcss.all, sty.svg__guBdc)}
+                        role={"img"}
+                      />
+                    ) : null}
+                  </Stack__>
+                  <Stack__
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.freeBox__n4Lt5)}
+                  >
+                    {(
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? true
+                        : false
+                    ) ? (
+                      <Stack__
+                        as={"div"}
+                        hasGap={true}
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox___15L2O
+                        )}
+                      >
+                        <Test
+                          className={classNames(
+                            "__wab_instance",
+                            sty.test__hk0Ym
+                          )}
+                          slot={
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text__zSrEb
+                              )}
+                            >
+                              {hasVariant(
+                                globalVariants,
+                                "screen",
+                                "mobileOnly"
+                              )
+                                ? "0+"
+                                : "300+"}
+                            </div>
+                          }
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__hmzl5
+                            )}
+                          >
+                            {hasVariant(globalVariants, "screen", "mobileOnly")
+                              ? "\u0e01\u0e48\u0e2d\u0e2a\u0e23\u0e49\u0e32\u0e07\u0e2a\u0e16\u0e32\u0e19\u0e35\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19 (\u0e2a\u0e16\u0e32\u0e19\u0e35\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19)"
+                              : "\u0e01\u0e48\u0e2d\u0e2a\u0e23\u0e49\u0e32\u0e07\u0e2a\u0e16\u0e32\u0e19\u0e35\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19 (\u0e2a\u0e16\u0e32\u0e19\u0e35\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19)"}
+                          </div>
+                        </Test>
+                        <Test
+                          className={classNames(
+                            "__wab_instance",
+                            sty.test__sHGbb
+                          )}
+                          slot={
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text__dioBx
+                              )}
+                            >
+                              {hasVariant(
+                                globalVariants,
+                                "screen",
+                                "mobileOnly"
+                              )
+                                ? "0+"
+                                : "300+"}
+                            </div>
+                          }
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__iVGtP
+                            )}
+                          >
+                            {hasVariant(globalVariants, "screen", "mobileOnly")
+                              ? "\u0e1c\u0e25\u0e34\u0e15\u0e16\u0e31\u0e07\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19\u0e43\u0e15\u0e49\u0e14\u0e34\u0e19\u0e1c\u0e19\u0e31\u0e072\u0e0a\u0e31\u0e49\u0e19 PERMATANK\u00ae (\u0e43\u0e1a)"
+                              : "\u0e01\u0e48\u0e2d\u0e2a\u0e23\u0e49\u0e32\u0e07\u0e2a\u0e16\u0e32\u0e19\u0e35\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19 (\u0e2a\u0e16\u0e32\u0e19\u0e35\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19)"}
+                          </div>
+                        </Test>
+                        <Test
+                          className={classNames(
+                            "__wab_instance",
+                            sty.test__a0XSt
+                          )}
+                          slot={
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text__m8Fk
+                              )}
+                            >
+                              {hasVariant(
+                                globalVariants,
+                                "screen",
+                                "mobileOnly"
+                              )
+                                ? "0+"
+                                : "300+"}
+                            </div>
+                          }
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__gES4
+                            )}
+                          >
+                            {hasVariant(globalVariants, "screen", "mobileOnly")
+                              ? "\u0e08\u0e33\u0e2b\u0e19\u0e48\u0e32\u0e22\u0e41\u0e25\u0e30\u0e15\u0e34\u0e14\u0e15\u0e31\u0e49\u0e07\u0e17\u0e48\u0e2d\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19\u0e43\u0e15\u0e49\u0e14\u0e34\u0e19\u0e1c\u0e19\u0e31\u0e07 2 \u0e0a\u0e31\u0e49\u0e19\r (\u0e2a\u0e16\u0e32\u0e19\u0e35\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19)"
+                              : "\u0e01\u0e48\u0e2d\u0e2a\u0e23\u0e49\u0e32\u0e07\u0e2a\u0e16\u0e32\u0e19\u0e35\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19 (\u0e2a\u0e16\u0e32\u0e19\u0e35\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19)"}
+                          </div>
+                        </Test>
+                        <Test
+                          className={classNames(
+                            "__wab_instance",
+                            sty.test__fIfqm
+                          )}
+                          slot={
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text__wuMsh
+                              )}
+                            >
+                              {hasVariant(
+                                globalVariants,
+                                "screen",
+                                "mobileOnly"
+                              )
+                                ? "0+"
+                                : "300+"}
+                            </div>
+                          }
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__f6Vq
+                            )}
+                          >
+                            {hasVariant(globalVariants, "screen", "mobileOnly")
+                              ? "\u0e08\u0e33\u0e2b\u0e19\u0e48\u0e32\u0e22\u0e41\u0e25\u0e30\u0e15\u0e34\u0e14\u0e15\u0e31\u0e49\u0e07\u0e23\u0e30\u0e1a\u0e1a\u0e27\u0e31\u0e14\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19\u0e2d\u0e31\u0e15\u0e42\u0e19\u0e21\u0e31\u0e15\u0e34\u0e20\u0e32\u0e22\u0e43\u0e19\u0e16\u0e31\u0e07\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19 (ATG)"
+                              : "\u0e01\u0e48\u0e2d\u0e2a\u0e23\u0e49\u0e32\u0e07\u0e2a\u0e16\u0e32\u0e19\u0e35\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19 (\u0e2a\u0e16\u0e32\u0e19\u0e35\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19)"}
+                          </div>
+                        </Test>
+                        <Test
+                          className={classNames(
+                            "__wab_instance",
+                            sty.test___3PNb
+                          )}
+                          slot={
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text__mlFw
+                              )}
+                            >
+                              {"20,000+"}
+                            </div>
+                          }
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__nc8Am
+                            )}
+                          >
+                            {
+                              "\u0e1c\u0e25\u0e34\u0e15\u0e16\u0e31\u0e07\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19\u0e43\u0e15\u0e49\u0e14\u0e34\u0e19\u0e1c\u0e19\u0e31\u0e072\u0e0a\u0e31\u0e49\u0e19 PERMATANK\u00ae (\u0e43\u0e1a)"
+                            }
+                          </div>
+                        </Test>
+                      </Stack__>
+                    ) : null}
+                    {(
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? true
+                        : false
+                    ) ? (
+                      <Stack__
+                        as={"div"}
+                        hasGap={true}
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__ehT74
+                        )}
+                      >
+                        <Test
+                          className={classNames(
+                            "__wab_instance",
+                            sty.test__ri7Hx
+                          )}
+                          slot={
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text__fCqhz
+                              )}
+                            >
+                              {"300+"}
+                            </div>
+                          }
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__a8Onv
+                            )}
+                          >
+                            {hasVariant(globalVariants, "screen", "mobileOnly")
+                              ? "\u0e08\u0e33\u0e2b\u0e19\u0e48\u0e32\u0e22\u0e41\u0e25\u0e30\u0e15\u0e34\u0e14\u0e15\u0e31\u0e49\u0e07\u0e17\u0e48\u0e2d\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19\u0e43\u0e15\u0e49\u0e14\u0e34\u0e19 \u0e1c\u0e19\u0e31\u0e07 2 \u0e0a\u0e31\u0e49\u0e19 (\u0e2a\u0e16\u0e32\u0e19\u0e35\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19)"
+                              : "\u0e01\u0e48\u0e2d\u0e2a\u0e23\u0e49\u0e32\u0e07\u0e2a\u0e16\u0e32\u0e19\u0e35\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19 (\u0e2a\u0e16\u0e32\u0e19\u0e35\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19)"}
+                          </div>
+                        </Test>
+                        <Test
+                          className={classNames(
+                            "__wab_instance",
+                            sty.test__bMzNf
+                          )}
+                          slot={
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text__jmtrv
+                              )}
+                            >
+                              {hasVariant(
+                                globalVariants,
+                                "screen",
+                                "mobileOnly"
+                              )
+                                ? "60+"
+                                : "20,000+"}
+                            </div>
+                          }
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__ydBtr
+                            )}
+                          >
+                            {hasVariant(globalVariants, "screen", "mobileOnly")
+                              ? "\u0e08\u0e33\u0e2b\u0e19\u0e48\u0e32\u0e22\u0e41\u0e25\u0e30\u0e15\u0e34\u0e14\u0e15\u0e31\u0e49\u0e07\u0e23\u0e30\u0e1a\u0e1a\u0e27\u0e31\u0e14\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19\u0e2d\u0e31\u0e15\u0e42\u0e19\u0e21\u0e31\u0e15\u0e34\u0e20\u0e32\u0e22\u0e43\u0e19\u0e16\u0e31\u0e07\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19 (ATG)"
+                              : "\u0e1c\u0e25\u0e34\u0e15\u0e16\u0e31\u0e07\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19\u0e43\u0e15\u0e49\u0e14\u0e34\u0e19\u0e1c\u0e19\u0e31\u0e072\u0e0a\u0e31\u0e49\u0e19 PERMATANK\u00ae (\u0e43\u0e1a)"}
+                          </div>
+                        </Test>
+                      </Stack__>
+                    ) : null}
+                    <Test
+                      className={classNames("__wab_instance", sty.test__mlk3X)}
+                      slot={
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__iSp6Z
+                          )}
+                        >
+                          {"0+"}
+                        </div>
+                      }
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__o9IFo
+                        )}
+                      >
+                        {
+                          "\u0e01\u0e48\u0e2d\u0e2a\u0e23\u0e49\u0e32\u0e07\u0e2a\u0e16\u0e32\u0e19\u0e35\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19 (\u0e2a\u0e16\u0e32\u0e19\u0e35\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19)"
+                        }
+                      </div>
+                    </Test>
+                    <Test
+                      className={classNames("__wab_instance", sty.test___5Mlbt)}
+                      slot={
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text___2JefF
+                          )}
+                        >
+                          {"0+"}
+                        </div>
+                      }
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__t2Mp9
+                        )}
+                      >
+                        {
+                          "\u0e1c\u0e25\u0e34\u0e15\u0e16\u0e31\u0e07\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19\u0e43\u0e15\u0e49\u0e14\u0e34\u0e19\u0e1c\u0e19\u0e31\u0e072\u0e0a\u0e31\u0e49\u0e19 PERMATANK\u00ae (\u0e43\u0e1a)"
+                        }
+                      </div>
+                    </Test>
+                    <Test
+                      className={classNames("__wab_instance", sty.test__k09Ir)}
+                      slot={
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__sCuqa
+                          )}
+                        >
+                          {"0+"}
+                        </div>
+                      }
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__rTh4I
+                        )}
+                      >
+                        {
+                          "\u0e08\u0e33\u0e2b\u0e19\u0e48\u0e32\u0e22\u0e41\u0e25\u0e30\u0e15\u0e34\u0e14\u0e15\u0e31\u0e49\u0e07\u0e17\u0e48\u0e2d\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19\u0e43\u0e15\u0e49\u0e14\u0e34\u0e19\u0e1c\u0e19\u0e31\u0e07 2 \u0e0a\u0e31\u0e49\u0e19\r (\u0e2a\u0e16\u0e32\u0e19\u0e35\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19)"
+                        }
+                      </div>
+                    </Test>
+                    <Test
+                      className={classNames("__wab_instance", sty.test__tR6Tt)}
+                      slot={
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__ci0M
+                          )}
+                        >
+                          {"0+"}
+                        </div>
+                      }
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__kiRyx
+                        )}
+                      >
+                        {
+                          "\u0e08\u0e33\u0e2b\u0e19\u0e48\u0e32\u0e22\u0e41\u0e25\u0e30\u0e15\u0e34\u0e14\u0e15\u0e31\u0e49\u0e07\u0e23\u0e30\u0e1a\u0e1a\u0e27\u0e31\u0e14\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19\u0e2d\u0e31\u0e15\u0e42\u0e19\u0e21\u0e31\u0e15\u0e34\u0e20\u0e32\u0e22\u0e43\u0e19\u0e16\u0e31\u0e07\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19 (ATG)"
+                        }
+                      </div>
+                    </Test>
+                  </Stack__>
+                </Stack__>
+              </div>
+            </div>
+          </Stack__>
           <Footer2
             data-plasmic-name={"footer2"}
             data-plasmic-override={overrides.footer2}
@@ -1285,6 +1779,8 @@ const PlasmicDescendants = {
     "content",
     "foreground",
     "sliderCarousel",
+    "potential",
+    "left2",
     "footer2"
   ],
   header: ["header"],
@@ -1293,6 +1789,8 @@ const PlasmicDescendants = {
   content: ["content", "foreground"],
   foreground: ["foreground"],
   sliderCarousel: ["sliderCarousel"],
+  potential: ["potential", "left2"],
+  left2: ["left2"],
   footer2: ["footer2"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
@@ -1306,6 +1804,8 @@ type NodeDefaultElementType = {
   content: "div";
   foreground: "div";
   sliderCarousel: typeof SliderWrapper;
+  potential: "div";
+  left2: "div";
   footer2: typeof Footer2;
 };
 
@@ -1375,6 +1875,8 @@ export const PlasmicProductAndService = Object.assign(
     content: makeNodeComponent("content"),
     foreground: makeNodeComponent("foreground"),
     sliderCarousel: makeNodeComponent("sliderCarousel"),
+    potential: makeNodeComponent("potential"),
+    left2: makeNodeComponent("left2"),
     footer2: makeNodeComponent("footer2"),
 
     // Metadata about props expected for PlasmicProductAndService

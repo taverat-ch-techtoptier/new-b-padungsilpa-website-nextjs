@@ -263,7 +263,7 @@ function PlasmicHeader__RenderFunc(props: {
               sty.link__gMwMo
             )}
             component={Link}
-            href={`/PERMATANK และถังน้ำมันแบบ ต่างๆ`}
+            href={`/PERMATANK and Different Types of Fuel Tanks`}
             platform={"nextjs"}
           >
             {false ? (
