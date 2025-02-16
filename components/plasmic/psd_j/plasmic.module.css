@@ -31,6 +31,32 @@
   --plasmic-token-unnamed-style-token-4: var(--token-KUVx4th-AgVu);
   --token-0oPBYNDYkDVV: #ffffff;
   --plasmic-token-light-text-primary: var(--token-0oPBYNDYkDVV);
+  --token-azgPl4Gmqs61: #1f2937;
+  --plasmic-token-light-text-main: var(--token-azgPl4Gmqs61);
+  --token-gHMf9SrvdNKx: 16px;
+  --plasmic-token-font-size-body: var(--token-gHMf9SrvdNKx);
+  --token-r59v0ehHHq2n: 16px;
+  --plasmic-token-spacing-medium: var(--token-r59v0ehHHq2n);
+  --token-OlyHeGCB_p87: 32px;
+  --plasmic-token-spacing-large: var(--token-OlyHeGCB_p87);
+  --token-LeEnSI-zT-6q: 10px;
+  --plasmic-token-icon: var(--token-LeEnSI-zT-6q);
+  --token-LR5xZMuBiaUA: #2563eb;
+  --plasmic-token-light-background-primary: var(--token-LR5xZMuBiaUA);
+  --token-ccqlOYbWaT_K: 0px;
+  --plasmic-token-0-px: var(--token-ccqlOYbWaT_K);
+  --token-e1A2Wod2fOa-: #e3a400;
+  --plasmic-token-light-text-secondary: var(--token-e1A2Wod2fOa-);
+  --token-6YfpgWySKXtG: #ffffff;
+  --plasmic-token-light-text-accent: var(--token-6YfpgWySKXtG);
+  --token-p7m1hb1fYjyr: #565e6a;
+  --plasmic-token-light-text-sub: var(--token-p7m1hb1fYjyr);
+  --token-2DnbeFqB1d3j: #1e3a8a;
+  --plasmic-token-light-background-accent: var(--token-2DnbeFqB1d3j);
+  --token-s84FVuYtV0Hi: #d1d5db;
+  --plasmic-token-light-border-secondary: var(--token-s84FVuYtV0Hi);
+  --token-6Qh7Hu0K_cJX: #58575f;
+  --plasmic-token-border: var(--token-6Qh7Hu0K_cJX);
 }
 
 .plasmic_tokens {

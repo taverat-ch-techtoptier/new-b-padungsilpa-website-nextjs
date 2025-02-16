@@ -59,7 +59,7 @@ import {
   useGlobalActions
 } from "@plasmicapp/react-web/lib/host";
 
-import Header from "../../Header"; // plasmic-import: fMrxAl7coXSG/component
+import Header3 from "../../Header3"; // plasmic-import: Fs6IO6-MbSpr/component
 import TeamWraper from "../../TeamWraper"; // plasmic-import: 2WwdCIPes9G8/component
 import Footer2 from "../../Footer2"; // plasmic-import: 9pDOvBRTOpt9/component
 
@@ -86,7 +86,7 @@ export const PlasmicAgents__ArgProps = new Array<ArgPropType>();
 
 export type PlasmicAgents__OverridesType = {
   root?: Flex__<"div">;
-  header?: Flex__<typeof Header>;
+  header3?: Flex__<typeof Header3>;
   bannerHeader?: Flex__<"div">;
   h1?: Flex__<"h1">;
   svg?: Flex__<"svg">;
@@ -169,10 +169,10 @@ function PlasmicAgents__RenderFunc(props: {
             sty.root
           )}
         >
-          <Header
-            data-plasmic-name={"header"}
-            data-plasmic-override={overrides.header}
-            className={classNames("__wab_instance", sty.header)}
+          <Header3
+            data-plasmic-name={"header3"}
+            data-plasmic-override={overrides.header3}
+            className={classNames("__wab_instance", sty.header3)}
           />
 
           <div
@@ -493,7 +493,7 @@ function PlasmicAgents__RenderFunc(props: {
 const PlasmicDescendants = {
   root: [
     "root",
-    "header",
+    "header3",
     "bannerHeader",
     "h1",
     "svg",
@@ -503,7 +503,7 @@ const PlasmicDescendants = {
     "h4",
     "footer2"
   ],
-  header: ["header"],
+  header3: ["header3"],
   bannerHeader: ["bannerHeader", "h1", "svg"],
   h1: ["h1"],
   svg: ["svg"],
@@ -518,7 +518,7 @@ type DescendantsType<T extends NodeNameType> =
   (typeof PlasmicDescendants)[T][number];
 type NodeDefaultElementType = {
   root: "div";
-  header: typeof Header;
+  header3: typeof Header3;
   bannerHeader: "div";
   h1: "h1";
   svg: "svg";
@@ -589,7 +589,7 @@ export const PlasmicAgents = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    header: makeNodeComponent("header"),
+    header3: makeNodeComponent("header3"),
     bannerHeader: makeNodeComponent("bannerHeader"),
     h1: makeNodeComponent("h1"),
     svg: makeNodeComponent("svg"),

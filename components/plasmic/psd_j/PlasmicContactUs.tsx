@@ -59,7 +59,7 @@ import {
   useGlobalActions
 } from "@plasmicapp/react-web/lib/host";
 
-import Header from "../../Header"; // plasmic-import: fMrxAl7coXSG/component
+import Header3 from "../../Header3"; // plasmic-import: Fs6IO6-MbSpr/component
 import Footer2 from "../../Footer2"; // plasmic-import: 9pDOvBRTOpt9/component
 
 import { useScreenVariants as useScreenVariants_2YPqM3KDWg } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: 2yPqM3-kD-WG/globalVariant
@@ -85,7 +85,7 @@ export const PlasmicContactUs__ArgProps = new Array<ArgPropType>();
 
 export type PlasmicContactUs__OverridesType = {
   root?: Flex__<"div">;
-  header?: Flex__<typeof Header>;
+  header3?: Flex__<typeof Header3>;
   columns?: Flex__<"div">;
   img?: Flex__<typeof PlasmicImg__>;
   h2?: Flex__<"h2">;
@@ -166,10 +166,10 @@ function PlasmicContactUs__RenderFunc(props: {
             sty.root
           )}
         >
-          <Header
-            data-plasmic-name={"header"}
-            data-plasmic-override={overrides.header}
-            className={classNames("__wab_instance", sty.header)}
+          <Header3
+            data-plasmic-name={"header3"}
+            data-plasmic-override={overrides.header3}
+            className={classNames("__wab_instance", sty.header3)}
           />
 
           <Stack__
@@ -367,7 +367,7 @@ function PlasmicContactUs__RenderFunc(props: {
 const PlasmicDescendants = {
   root: [
     "root",
-    "header",
+    "header3",
     "columns",
     "img",
     "h2",
@@ -375,7 +375,7 @@ const PlasmicDescendants = {
     "link",
     "footer2"
   ],
-  header: ["header"],
+  header3: ["header3"],
   columns: ["columns", "img", "h2", "textarea", "link"],
   img: ["img"],
   h2: ["h2"],
@@ -388,7 +388,7 @@ type DescendantsType<T extends NodeNameType> =
   (typeof PlasmicDescendants)[T][number];
 type NodeDefaultElementType = {
   root: "div";
-  header: typeof Header;
+  header3: typeof Header3;
   columns: "div";
   img: typeof PlasmicImg__;
   h2: "h2";
@@ -457,7 +457,7 @@ export const PlasmicContactUs = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    header: makeNodeComponent("header"),
+    header3: makeNodeComponent("header3"),
     columns: makeNodeComponent("columns"),
     img: makeNodeComponent("img"),
     h2: makeNodeComponent("h2"),

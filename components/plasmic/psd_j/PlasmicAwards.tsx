@@ -59,7 +59,7 @@ import {
   useGlobalActions
 } from "@plasmicapp/react-web/lib/host";
 
-import Header from "../../Header"; // plasmic-import: fMrxAl7coXSG/component
+import Header3 from "../../Header3"; // plasmic-import: Fs6IO6-MbSpr/component
 import { TabsContainer } from "@plasmicpkgs/plasmic-tabs";
 import { TabButton } from "@plasmicpkgs/plasmic-tabs";
 import Button from "../../Button"; // plasmic-import: lBHNzts6tFyj/component
@@ -119,7 +119,7 @@ export const PlasmicAwards__ArgProps = new Array<ArgPropType>(
 
 export type PlasmicAwards__OverridesType = {
   page?: Flex__<"div">;
-  header?: Flex__<typeof Header>;
+  header3?: Flex__<typeof Header3>;
   bannerHeader?: Flex__<"div">;
   h1?: Flex__<"h1">;
   tabsContainer?: Flex__<typeof TabsContainer>;
@@ -202,10 +202,10 @@ function PlasmicAwards__RenderFunc(props: {
             sty.page
           )}
         >
-          <Header
-            data-plasmic-name={"header"}
-            data-plasmic-override={overrides.header}
-            className={classNames("__wab_instance", sty.header)}
+          <Header3
+            data-plasmic-name={"header3"}
+            data-plasmic-override={overrides.header3}
+            className={classNames("__wab_instance", sty.header3)}
           />
 
           <div
@@ -1669,7 +1669,7 @@ function PlasmicAwards__RenderFunc(props: {
 const PlasmicDescendants = {
   page: [
     "page",
-    "header",
+    "header3",
     "bannerHeader",
     "h1",
     "tabsContainer",
@@ -1679,7 +1679,7 @@ const PlasmicDescendants = {
     "productAndService",
     "footer2"
   ],
-  header: ["header"],
+  header3: ["header3"],
   bannerHeader: ["bannerHeader", "h1"],
   h1: ["h1"],
   tabsContainer: ["tabsContainer"],
@@ -1694,7 +1694,7 @@ type DescendantsType<T extends NodeNameType> =
   (typeof PlasmicDescendants)[T][number];
 type NodeDefaultElementType = {
   page: "div";
-  header: typeof Header;
+  header3: typeof Header3;
   bannerHeader: "div";
   h1: "h1";
   tabsContainer: typeof TabsContainer;
@@ -1765,7 +1765,7 @@ export const PlasmicAwards = Object.assign(
   makeNodeComponent("page"),
   {
     // Helper components rendering sub-elements
-    header: makeNodeComponent("header"),
+    header3: makeNodeComponent("header3"),
     bannerHeader: makeNodeComponent("bannerHeader"),
     h1: makeNodeComponent("h1"),
     tabsContainer: makeNodeComponent("tabsContainer"),

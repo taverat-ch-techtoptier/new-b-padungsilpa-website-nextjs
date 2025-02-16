@@ -59,7 +59,7 @@ import {
   useGlobalActions
 } from "@plasmicapp/react-web/lib/host";
 
-import Header from "../../Header"; // plasmic-import: fMrxAl7coXSG/component
+import Header3 from "../../Header3"; // plasmic-import: Fs6IO6-MbSpr/component
 import Footer2 from "../../Footer2"; // plasmic-import: 9pDOvBRTOpt9/component
 
 import { useScreenVariants as useScreenVariants_2YPqM3KDWg } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: 2yPqM3-kD-WG/globalVariant
@@ -128,7 +128,7 @@ export const PlasmicNewsAndActivity__ArgProps = new Array<ArgPropType>(
 
 export type PlasmicNewsAndActivity__OverridesType = {
   page?: Flex__<"div">;
-  header?: Flex__<typeof Header>;
+  header3?: Flex__<typeof Header3>;
   bannerHeader?: Flex__<"div">;
   h1?: Flex__<"h1">;
   productAndService?: Flex__<"div">;
@@ -208,10 +208,10 @@ function PlasmicNewsAndActivity__RenderFunc(props: {
             sty.page
           )}
         >
-          <Header
-            data-plasmic-name={"header"}
-            data-plasmic-override={overrides.header}
-            className={classNames("__wab_instance", sty.header)}
+          <Header3
+            data-plasmic-name={"header3"}
+            data-plasmic-override={overrides.header3}
+            className={classNames("__wab_instance", sty.header3)}
           />
 
           <div
@@ -292,9 +292,9 @@ function PlasmicNewsAndActivity__RenderFunc(props: {
                             displayWidth={"100%"}
                             loading={"lazy"}
                             src={{
-                              src: "/plasmic/psd_j/images/_4664413729649586456683132441591559472871573NJpg.jpg",
-                              fullWidth: 2048,
-                              fullHeight: 1536,
+                              src: "/plasmic/psd_j/images/fb25021301Jpg.jpg",
+                              fullWidth: 1343,
+                              fullHeight: 638,
                               aspectRatio: undefined
                             }}
                           />
@@ -401,9 +401,9 @@ function PlasmicNewsAndActivity__RenderFunc(props: {
                             displayWidth={"100%"}
                             loading={"lazy"}
                             src={{
-                              src: "/plasmic/psd_j/images/_29120584053472534086876881457757044295190479NJpg.jpg",
-                              fullWidth: 800,
-                              fullHeight: 600,
+                              src: "/plasmic/psd_j/images/_4715415649954916359483473729355992317535575N1024X768Jpg.jpg",
+                              fullWidth: 1024,
+                              fullHeight: 768,
                               aspectRatio: undefined
                             }}
                           />
@@ -513,9 +513,9 @@ function PlasmicNewsAndActivity__RenderFunc(props: {
                             displayWidth={"100%"}
                             loading={"lazy"}
                             src={{
-                              src: "/plasmic/psd_j/images/_4444833488493994405575683439209113144118689NJpg.jpg",
-                              fullWidth: 1479,
-                              fullHeight: 1109,
+                              src: "/plasmic/psd_j/images/_4713055879941140327527741294910820103949591NJpg.jpg",
+                              fullWidth: 1280,
+                              fullHeight: 466,
                               aspectRatio: undefined
                             }}
                           />
@@ -625,9 +625,9 @@ function PlasmicNewsAndActivity__RenderFunc(props: {
                             displayWidth={"100%"}
                             loading={"lazy"}
                             src={{
-                              src: "/plasmic/psd_j/images/atgNewJpg.jpg",
-                              fullWidth: 1600,
-                              fullHeight: 900,
+                              src: "/plasmic/psd_j/images/fb241114011024X682Jpg.jpg",
+                              fullWidth: 1024,
+                              fullHeight: 682,
                               aspectRatio: undefined
                             }}
                           />
@@ -737,9 +737,9 @@ function PlasmicNewsAndActivity__RenderFunc(props: {
                             displayWidth={"100%"}
                             loading={"lazy"}
                             src={{
-                              src: "/plasmic/psd_j/images/_16962945840002154633914967365690975083369688NJpg.jpg",
-                              fullWidth: 1600,
-                              fullHeight: 1200,
+                              src: "/plasmic/psd_j/images/fb241111051024X768Jpg.jpg",
+                              fullWidth: 1024,
+                              fullHeight: 768,
                               aspectRatio: undefined
                             }}
                           />
@@ -846,9 +846,9 @@ function PlasmicNewsAndActivity__RenderFunc(props: {
                             displayWidth={"100%"}
                             loading={"lazy"}
                             src={{
-                              src: "/plasmic/psd_j/images/_3149430817600204340776888085103392998817792NJpg.jpg",
-                              fullWidth: 960,
-                              fullHeight: 720,
+                              src: "/plasmic/psd_j/images/fb671004021024X768Jpg.jpg",
+                              fullWidth: 1024,
+                              fullHeight: 768,
                               aspectRatio: undefined
                             }}
                           />
@@ -955,9 +955,9 @@ function PlasmicNewsAndActivity__RenderFunc(props: {
                             displayWidth={"100%"}
                             loading={"lazy"}
                             src={{
-                              src: "/plasmic/psd_j/images/_3149430817600204340776888085103392998817792NJpg.jpg",
-                              fullWidth: 960,
-                              fullHeight: 720,
+                              src: "/plasmic/psd_j/images/padungsilpaGroup27859801866X1536Jpg.jpg",
+                              fullWidth: 866,
+                              fullHeight: 1536,
                               aspectRatio: undefined
                             }}
                           />
@@ -1064,9 +1064,9 @@ function PlasmicNewsAndActivity__RenderFunc(props: {
                             displayWidth={"100%"}
                             loading={"lazy"}
                             src={{
-                              src: "/plasmic/psd_j/images/_3149430817600204340776888085103392998817792NJpg.jpg",
-                              fullWidth: 960,
-                              fullHeight: 720,
+                              src: "/plasmic/psd_j/images/fb24092001Jpg.jpg",
+                              fullWidth: 600,
+                              fullHeight: 450,
                               aspectRatio: undefined
                             }}
                           />
@@ -1173,9 +1173,9 @@ function PlasmicNewsAndActivity__RenderFunc(props: {
                             displayWidth={"100%"}
                             loading={"lazy"}
                             src={{
-                              src: "/plasmic/psd_j/images/_3149430817600204340776888085103392998817792NJpg.jpg",
-                              fullWidth: 960,
-                              fullHeight: 720,
+                              src: "/plasmic/psd_j/images/capture1024X737Png.png",
+                              fullWidth: 1024,
+                              fullHeight: 737,
                               aspectRatio: undefined
                             }}
                           />
@@ -1282,9 +1282,9 @@ function PlasmicNewsAndActivity__RenderFunc(props: {
                             displayWidth={"100%"}
                             loading={"lazy"}
                             src={{
-                              src: "/plasmic/psd_j/images/_3149430817600204340776888085103392998817792NJpg.jpg",
-                              fullWidth: 960,
-                              fullHeight: 720,
+                              src: "/plasmic/psd_j/images/padungsilpaGroupFb24090901Jpg.jpg",
+                              fullWidth: 1024,
+                              fullHeight: 768,
                               aspectRatio: undefined
                             }}
                           />
@@ -1382,14 +1382,14 @@ function PlasmicNewsAndActivity__RenderFunc(props: {
 const PlasmicDescendants = {
   page: [
     "page",
-    "header",
+    "header3",
     "bannerHeader",
     "h1",
     "productAndService",
     "columns",
     "footer2"
   ],
-  header: ["header"],
+  header3: ["header3"],
   bannerHeader: ["bannerHeader", "h1"],
   h1: ["h1"],
   productAndService: ["productAndService", "columns"],
@@ -1401,7 +1401,7 @@ type DescendantsType<T extends NodeNameType> =
   (typeof PlasmicDescendants)[T][number];
 type NodeDefaultElementType = {
   page: "div";
-  header: typeof Header;
+  header3: typeof Header3;
   bannerHeader: "div";
   h1: "h1";
   productAndService: "div";
@@ -1469,7 +1469,7 @@ export const PlasmicNewsAndActivity = Object.assign(
   makeNodeComponent("page"),
   {
     // Helper components rendering sub-elements
-    header: makeNodeComponent("header"),
+    header3: makeNodeComponent("header3"),
     bannerHeader: makeNodeComponent("bannerHeader"),
     h1: makeNodeComponent("h1"),
     productAndService: makeNodeComponent("productAndService"),

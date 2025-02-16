@@ -59,9 +59,7 @@ import {
   useGlobalActions
 } from "@plasmicapp/react-web/lib/host";
 
-import Header from "../../Header"; // plasmic-import: fMrxAl7coXSG/component
-import { TabButton } from "@plasmicpkgs/plasmic-tabs";
-import Button from "../../Button"; // plasmic-import: lBHNzts6tFyj/component
+import Header3 from "../../Header3"; // plasmic-import: Fs6IO6-MbSpr/component
 import { SliderWrapper } from "@plasmicpkgs/react-slick";
 import { sliderHelpers as SliderWrapper_Helpers } from "@plasmicpkgs/react-slick";
 import Test from "../../Test"; // plasmic-import: N8x7vUKS4T3n/component
@@ -75,11 +73,9 @@ import plasmic_antd_5_hostless_css from "../antd_5_hostless/plasmic.module.css";
 import projectcss from "./plasmic.module.css"; // plasmic-import: wauR2tk1hPNKxeSBCX7ndF/projectcss
 import sty from "./PlasmicProductAndService.module.css"; // plasmic-import: s0LCpaUf4pqV/css
 
-import CheckSvgIcon from "../plasmic_tabs/icons/PlasmicIcon__CheckSvg"; // plasmic-import: zq2s7N0xWucT/icon
-import IconIcon from "../plasmic_tabs/icons/PlasmicIcon__Icon"; // plasmic-import: 8K40faRNhuCj/icon
+import IconIcon from "./icons/PlasmicIcon__Icon"; // plasmic-import: 8DjHUJI81s9x/icon
 import ArrowRightIcon from "./icons/PlasmicIcon__ArrowRight"; // plasmic-import: HZOtD1fAEgQN/icon
 import Icon8Icon from "./icons/PlasmicIcon__Icon8"; // plasmic-import: YDVzHW_YDla2/icon
-import IconIcon2 from "./icons/PlasmicIcon__Icon"; // plasmic-import: 8DjHUJI81s9x/icon
 
 createPlasmicElementProxy;
 
@@ -95,11 +91,13 @@ export const PlasmicProductAndService__ArgProps = new Array<ArgPropType>();
 
 export type PlasmicProductAndService__OverridesType = {
   page?: Flex__<"div">;
-  header?: Flex__<typeof Header>;
+  header3?: Flex__<typeof Header3>;
   bannerHeader?: Flex__<"div">;
   h1?: Flex__<"h1">;
+  subHeader2?: Flex__<"div">;
   content?: Flex__<"div">;
   foreground?: Flex__<"div">;
+  content2?: Flex__<"div">;
   sliderCarousel?: Flex__<typeof SliderWrapper>;
   potential?: Flex__<"div">;
   left2?: Flex__<"div">;
@@ -199,10 +197,10 @@ function PlasmicProductAndService__RenderFunc(props: {
             sty.page
           )}
         >
-          <Header
-            data-plasmic-name={"header"}
-            data-plasmic-override={overrides.header}
-            className={classNames("__wab_instance", sty.header)}
+          <Header3
+            data-plasmic-name={"header3"}
+            data-plasmic-override={overrides.header3}
+            className={classNames("__wab_instance", sty.header3)}
           />
 
           <div
@@ -235,125 +233,270 @@ function PlasmicProductAndService__RenderFunc(props: {
               </div>
             </div>
           </div>
-          <div className={classNames(projectcss.all, sty.freeBox__r0Ogb)}>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"subHeader2"}
+            data-plasmic-override={overrides.subHeader2}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.subHeader2)}
+          >
             <Stack__
-              as={"div"}
+              as={PlasmicLink__}
               hasGap={true}
-              className={classNames(projectcss.all, sty.freeBox__x6WKa)}
+              className={classNames(
+                projectcss.all,
+                projectcss.a,
+                sty.link___1WatW
+              )}
+              component={Link}
+              href={`/Fuel Service Construction`}
+              platform={"nextjs"}
             >
-              <TabButton
-                className={classNames("__wab_instance", sty.tabButton__fKdPj)}
-                tabKey={"tab1"}
+              {false ? (
+                <IconIcon
+                  className={classNames(projectcss.all, sty.svg__wgGcb)}
+                  role={"img"}
+                />
+              ) : null}
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__qHljB
+                )}
               >
-                <Button
-                  className={classNames("__wab_instance", sty.button__iXIjL)}
-                  link={`/Fuel Service Construction`}
-                >
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__hI05
-                    )}
-                  >
-                    {
-                      "\u0e07\u0e32\u0e19\u0e01\u0e48\u0e2d\u0e2a\u0e23\u0e49\u0e32\u0e07\u0e2a\u0e16\u0e32\u0e19\u0e35\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19"
-                    }
-                  </div>
-                </Button>
-              </TabButton>
-              <TabButton
-                className={classNames("__wab_instance", sty.tabButton__f5Wc7)}
-                tabKey={"tab1"}
-              >
-                <Button>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__wfsRn
-                    )}
-                  >
-                    {
-                      "\u0e08\u0e33\u0e2b\u0e19\u0e48\u0e32\u0e22\u0e41\u0e25\u0e30\u0e15\u0e34\u0e14\u0e15\u0e31\u0e49\u0e07\u0e17\u0e48\u0e2d\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19\u0e43\u0e15\u0e49\u0e14\u0e34\u0e19\u0e1c\u0e19\u0e31\u0e07 2 \u0e0a\u0e31\u0e49\u0e19"
-                    }
-                  </div>
-                </Button>
-              </TabButton>
-              <TabButton
-                className={classNames("__wab_instance", sty.tabButton__vrJm)}
-                tabKey={"tab1"}
-              >
-                <Button>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__jvOsT
-                    )}
-                  >
-                    {
-                      "PERMATANK \u0e41\u0e25\u0e30\u0e16\u0e31\u0e07\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19\u0e41\u0e1a\u0e1a \u0e15\u0e48\u0e32\u0e07\u0e46"
-                    }
-                  </div>
-                </Button>
-              </TabButton>
-              <TabButton
-                className={classNames("__wab_instance", sty.tabButton__kFm1)}
-                tabKey={"tab1"}
-              >
-                <Button>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text___5MEws
-                    )}
-                  >
-                    {
-                      "\u0e23\u0e30\u0e1a\u0e1a\u0e27\u0e31\u0e14\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19\u0e2d\u0e31\u0e15\u0e42\u0e19\u0e21\u0e31\u0e15\u0e34\u0e20\u0e32\u0e22\u0e43\u0e19\u0e16\u0e31\u0e07\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19"
-                    }
-                  </div>
-                </Button>
-              </TabButton>
-              <TabButton
-                className={classNames("__wab_instance", sty.tabButton__urGb)}
-                tabKey={"tab1"}
-              >
-                <Button>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text___1YLMz
-                    )}
-                  >
-                    {
-                      "\u0e2d\u0e38\u0e1b\u0e01\u0e23\u0e13\u0e4c\u0e40\u0e01\u0e35\u0e48\u0e22\u0e27\u0e01\u0e31\u0e1a\u0e16\u0e31\u0e07\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19"
-                    }
-                  </div>
-                </Button>
-              </TabButton>
-              <TabButton
-                className={classNames("__wab_instance", sty.tabButton__kLaRh)}
-                tabKey={"tab1"}
-              >
-                <Button>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__iHgtm
-                    )}
-                  >
-                    {
-                      "\u0e43\u0e2b\u0e49\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23\u0e15\u0e48\u0e32\u0e07\u0e46\u0e40\u0e01\u0e35\u0e48\u0e22\u0e27\u0e01\u0e31\u0e1a\u0e16\u0e31\u0e07\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19"
-                    }
-                  </div>
-                </Button>
-              </TabButton>
+                {
+                  "\u0e07\u0e32\u0e19\u0e01\u0e48\u0e2d\u0e2a\u0e23\u0e49\u0e32\u0e07\u0e2a\u0e16\u0e32\u0e19\u0e35\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19\u0e04\u0e23\u0e1a\u0e27\u0e07\u0e08\u0e23"
+                }
+              </div>
+              {false ? (
+                <IconIcon
+                  className={classNames(projectcss.all, sty.svg__vn4N7)}
+                  role={"img"}
+                />
+              ) : null}
             </Stack__>
-          </div>
+            <Stack__
+              as={PlasmicLink__}
+              hasGap={true}
+              className={classNames(
+                projectcss.all,
+                projectcss.a,
+                sty.link__lFZaT
+              )}
+              component={Link}
+              href={`/PERMATANK and Different Types of Fuel Tanks`}
+              platform={"nextjs"}
+            >
+              {false ? (
+                <IconIcon
+                  className={classNames(projectcss.all, sty.svg__cE8Pu)}
+                  role={"img"}
+                />
+              ) : null}
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__wav9Z
+                )}
+              >
+                {
+                  "PERMATANK \u0e41\u0e25\u0e30\u0e16\u0e31\u0e07\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19\u0e41\u0e1a\u0e1a\u0e15\u0e48\u0e32\u0e07 \u0e46"
+                }
+              </div>
+              {false ? (
+                <IconIcon
+                  className={classNames(projectcss.all, sty.svg__z9DEw)}
+                  role={"img"}
+                />
+              ) : null}
+            </Stack__>
+            <Stack__
+              as={PlasmicLink__}
+              hasGap={true}
+              className={classNames(
+                projectcss.all,
+                projectcss.a,
+                sty.link__kLAmx
+              )}
+              component={Link}
+              href={`/Sale and Installation of Petrol Pipe System`}
+              platform={"nextjs"}
+            >
+              {false ? (
+                <IconIcon
+                  className={classNames(projectcss.all, sty.svg__uDPfP)}
+                  role={"img"}
+                />
+              ) : null}
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__qLa9L
+                )}
+              >
+                {
+                  "\u0e08\u0e33\u0e2b\u0e19\u0e48\u0e32\u0e22\u0e41\u0e25\u0e30\u0e15\u0e34\u0e14\u0e15\u0e31\u0e49\u0e07\u0e17\u0e48\u0e2d\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19\u0e43\u0e15\u0e49\u0e14\u0e34\u0e19\u0e1c\u0e19\u0e31\u0e07 2 \u0e0a\u0e31\u0e49\u0e19"
+                }
+              </div>
+              {false ? (
+                <IconIcon
+                  className={classNames(projectcss.all, sty.svg__gZsr3)}
+                  role={"img"}
+                />
+              ) : null}
+            </Stack__>
+            <Stack__
+              as={PlasmicLink__}
+              hasGap={true}
+              className={classNames(
+                projectcss.all,
+                projectcss.a,
+                sty.link__le2H9
+              )}
+              component={Link}
+              href={`/Automatic Tank Gauge System`}
+              platform={"nextjs"}
+            >
+              {false ? (
+                <IconIcon
+                  className={classNames(projectcss.all, sty.svg__aDVx5)}
+                  role={"img"}
+                />
+              ) : null}
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__vYblJ
+                )}
+              >
+                {
+                  "\u0e23\u0e30\u0e1a\u0e1a\u0e27\u0e31\u0e14\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19\u0e2d\u0e31\u0e15\u0e42\u0e19\u0e21\u0e31\u0e15\u0e34\u0e20\u0e32\u0e22\u0e43\u0e19\u0e16\u0e31\u0e07\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19"
+                }
+              </div>
+              {false ? (
+                <IconIcon
+                  className={classNames(projectcss.all, sty.svg___8A2NW)}
+                  role={"img"}
+                />
+              ) : null}
+            </Stack__>
+            <Stack__
+              as={PlasmicLink__}
+              hasGap={true}
+              className={classNames(
+                projectcss.all,
+                projectcss.a,
+                sty.link___1RlYv
+              )}
+              component={Link}
+              href={`/Fuel Tanks & Equipment`}
+              platform={"nextjs"}
+            >
+              {false ? (
+                <IconIcon
+                  className={classNames(projectcss.all, sty.svg__wnLJm)}
+                  role={"img"}
+                />
+              ) : null}
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__heArd
+                )}
+              >
+                {
+                  "\u0e2d\u0e38\u0e1b\u0e01\u0e23\u0e13\u0e4c\u0e40\u0e01\u0e35\u0e48\u0e22\u0e27\u0e01\u0e31\u0e1a\u0e16\u0e31\u0e07\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19"
+                }
+              </div>
+              {false ? (
+                <IconIcon
+                  className={classNames(projectcss.all, sty.svg___3Nvfn)}
+                  role={"img"}
+                />
+              ) : null}
+            </Stack__>
+            <Stack__
+              as={PlasmicLink__}
+              hasGap={true}
+              className={classNames(
+                projectcss.all,
+                projectcss.a,
+                sty.link__gbxpe
+              )}
+              component={Link}
+              href={`/Fuel Tanks & Equipment`}
+              platform={"nextjs"}
+            >
+              {false ? (
+                <IconIcon
+                  className={classNames(projectcss.all, sty.svg__rj9TE)}
+                  role={"img"}
+                />
+              ) : null}
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text___2G4Uc
+                )}
+              >
+                {
+                  "\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23\u0e15\u0e48\u0e32\u0e07 \u0e46 \u0e40\u0e01\u0e35\u0e48\u0e22\u0e27\u0e01\u0e31\u0e1a\u0e16\u0e31\u0e07\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19"
+                }
+              </div>
+              {false ? (
+                <IconIcon
+                  className={classNames(projectcss.all, sty.svg__cyAqH)}
+                  role={"img"}
+                />
+              ) : null}
+            </Stack__>
+            {(
+              hasVariant(globalVariants, "screen", "mobileOnly") ? true : false
+            ) ? (
+              <Stack__
+                as={PlasmicLink__}
+                hasGap={true}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.a,
+                  sty.link__mooHv
+                )}
+                component={Link}
+                href={`/Fuel Service Construction`}
+                platform={"nextjs"}
+              >
+                {false ? (
+                  <IconIcon
+                    className={classNames(projectcss.all, sty.svg__mHajN)}
+                    role={"img"}
+                  />
+                ) : null}
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__m91Ce
+                  )}
+                >
+                  {
+                    "\u0e07\u0e32\u0e19\u0e01\u0e48\u0e2d\u0e2a\u0e23\u0e49\u0e32\u0e07\u0e2a\u0e16\u0e32\u0e19\u0e35\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19\u0e04\u0e23\u0e1a\u0e27\u0e07\u0e08\u0e23"
+                  }
+                </div>
+                {false ? (
+                  <IconIcon
+                    className={classNames(projectcss.all, sty.svg__pWdy)}
+                    role={"img"}
+                  />
+                ) : null}
+              </Stack__>
+            ) : null}
+          </Stack__>
           <Stack__
             as={"div"}
             data-plasmic-name={"content"}
@@ -511,7 +654,7 @@ function PlasmicProductAndService__RenderFunc(props: {
                             platform={"nextjs"}
                           >
                             {false ? (
-                              <IconIcon2
+                              <IconIcon
                                 className={classNames(
                                   projectcss.all,
                                   sty.svg__l8Hib
@@ -531,7 +674,7 @@ function PlasmicProductAndService__RenderFunc(props: {
                               }
                             </div>
                             {false ? (
-                              <IconIcon2
+                              <IconIcon
                                 className={classNames(
                                   projectcss.all,
                                   sty.svg__dRiNj
@@ -608,7 +751,7 @@ function PlasmicProductAndService__RenderFunc(props: {
                             platform={"nextjs"}
                           >
                             {false ? (
-                              <IconIcon2
+                              <IconIcon
                                 className={classNames(
                                   projectcss.all,
                                   sty.svg__yqcoh
@@ -628,7 +771,7 @@ function PlasmicProductAndService__RenderFunc(props: {
                               }
                             </div>
                             {false ? (
-                              <IconIcon2
+                              <IconIcon
                                 className={classNames(
                                   projectcss.all,
                                   sty.svg___6OFiJ
@@ -705,7 +848,7 @@ function PlasmicProductAndService__RenderFunc(props: {
                             platform={"nextjs"}
                           >
                             {false ? (
-                              <IconIcon2
+                              <IconIcon
                                 className={classNames(
                                   projectcss.all,
                                   sty.svg__keam5
@@ -725,7 +868,7 @@ function PlasmicProductAndService__RenderFunc(props: {
                               }
                             </div>
                             {false ? (
-                              <IconIcon2
+                              <IconIcon
                                 className={classNames(
                                   projectcss.all,
                                   sty.svg__coWii
@@ -799,7 +942,7 @@ function PlasmicProductAndService__RenderFunc(props: {
                             platform={"nextjs"}
                           >
                             {false ? (
-                              <IconIcon2
+                              <IconIcon
                                 className={classNames(
                                   projectcss.all,
                                   sty.svg___2NZwj
@@ -819,7 +962,7 @@ function PlasmicProductAndService__RenderFunc(props: {
                               }
                             </div>
                             {false ? (
-                              <IconIcon2
+                              <IconIcon
                                 className={classNames(
                                   projectcss.all,
                                   sty.svg__mMxO
@@ -893,7 +1036,7 @@ function PlasmicProductAndService__RenderFunc(props: {
                             platform={"nextjs"}
                           >
                             {false ? (
-                              <IconIcon2
+                              <IconIcon
                                 className={classNames(
                                   projectcss.all,
                                   sty.svg__wn1KF
@@ -913,7 +1056,7 @@ function PlasmicProductAndService__RenderFunc(props: {
                               }
                             </div>
                             {false ? (
-                              <IconIcon2
+                              <IconIcon
                                 className={classNames(
                                   projectcss.all,
                                   sty.svg__wDLgG
@@ -987,7 +1130,7 @@ function PlasmicProductAndService__RenderFunc(props: {
                             platform={"nextjs"}
                           >
                             {false ? (
-                              <IconIcon2
+                              <IconIcon
                                 className={classNames(
                                   projectcss.all,
                                   sty.svg__b9EdK
@@ -1007,7 +1150,7 @@ function PlasmicProductAndService__RenderFunc(props: {
                               }
                             </div>
                             {false ? (
-                              <IconIcon2
+                              <IconIcon
                                 className={classNames(
                                   projectcss.all,
                                   sty.svg__yo8Uq
@@ -1026,8 +1169,10 @@ function PlasmicProductAndService__RenderFunc(props: {
           </Stack__>
           <Stack__
             as={"div"}
+            data-plasmic-name={"content2"}
+            data-plasmic-override={overrides.content2}
             hasGap={true}
-            className={classNames(projectcss.all, sty.freeBox__d2H1C)}
+            className={classNames(projectcss.all, sty.content2)}
           >
             <div className={classNames(projectcss.all, sty.freeBox__mnW9N)}>
               <Stack__
@@ -1370,13 +1515,13 @@ function PlasmicProductAndService__RenderFunc(props: {
                     platform={"nextjs"}
                   >
                     {false ? (
-                      <IconIcon2
+                      <IconIcon
                         className={classNames(projectcss.all, sty.svg__t9G)}
                         role={"img"}
                       />
                     ) : null}
                     {false ? (
-                      <IconIcon2
+                      <IconIcon
                         className={classNames(projectcss.all, sty.svg__guBdc)}
                         role={"img"}
                       />
@@ -1773,21 +1918,25 @@ function PlasmicProductAndService__RenderFunc(props: {
 const PlasmicDescendants = {
   page: [
     "page",
-    "header",
+    "header3",
     "bannerHeader",
     "h1",
+    "subHeader2",
     "content",
     "foreground",
+    "content2",
     "sliderCarousel",
     "potential",
     "left2",
     "footer2"
   ],
-  header: ["header"],
+  header3: ["header3"],
   bannerHeader: ["bannerHeader", "h1"],
   h1: ["h1"],
+  subHeader2: ["subHeader2"],
   content: ["content", "foreground"],
   foreground: ["foreground"],
+  content2: ["content2", "sliderCarousel"],
   sliderCarousel: ["sliderCarousel"],
   potential: ["potential", "left2"],
   left2: ["left2"],
@@ -1798,11 +1947,13 @@ type DescendantsType<T extends NodeNameType> =
   (typeof PlasmicDescendants)[T][number];
 type NodeDefaultElementType = {
   page: "div";
-  header: typeof Header;
+  header3: typeof Header3;
   bannerHeader: "div";
   h1: "h1";
+  subHeader2: "div";
   content: "div";
   foreground: "div";
+  content2: "div";
   sliderCarousel: typeof SliderWrapper;
   potential: "div";
   left2: "div";
@@ -1869,11 +2020,13 @@ export const PlasmicProductAndService = Object.assign(
   makeNodeComponent("page"),
   {
     // Helper components rendering sub-elements
-    header: makeNodeComponent("header"),
+    header3: makeNodeComponent("header3"),
     bannerHeader: makeNodeComponent("bannerHeader"),
     h1: makeNodeComponent("h1"),
+    subHeader2: makeNodeComponent("subHeader2"),
     content: makeNodeComponent("content"),
     foreground: makeNodeComponent("foreground"),
+    content2: makeNodeComponent("content2"),
     sliderCarousel: makeNodeComponent("sliderCarousel"),
     potential: makeNodeComponent("potential"),
     left2: makeNodeComponent("left2"),

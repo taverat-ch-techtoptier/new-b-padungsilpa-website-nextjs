@@ -59,7 +59,7 @@ import {
   useGlobalActions
 } from "@plasmicapp/react-web/lib/host";
 
-import Header from "../../Header"; // plasmic-import: fMrxAl7coXSG/component
+import Header3 from "../../Header3"; // plasmic-import: Fs6IO6-MbSpr/component
 import Test from "../../Test"; // plasmic-import: N8x7vUKS4T3n/component
 import ContactSectionFooterTop from "../../ContactSectionFooterTop"; // plasmic-import: 4arliTQcAY3d/component
 import Footer2 from "../../Footer2"; // plasmic-import: 9pDOvBRTOpt9/component
@@ -115,7 +115,7 @@ export const PlasmicHomepage__ArgProps = new Array<ArgPropType>(
 
 export type PlasmicHomepage__OverridesType = {
   root?: Flex__<"div">;
-  header?: Flex__<typeof Header>;
+  header3?: Flex__<typeof Header3>;
   heroBanner?: Flex__<"div">;
   h1?: Flex__<"h1">;
   productAndService?: Flex__<"div">;
@@ -202,10 +202,10 @@ function PlasmicHomepage__RenderFunc(props: {
             sty.root
           )}
         >
-          <Header
-            data-plasmic-name={"header"}
-            data-plasmic-override={overrides.header}
-            className={classNames("__wab_instance", sty.header)}
+          <Header3
+            data-plasmic-name={"header3"}
+            data-plasmic-override={overrides.header3}
+            className={classNames("__wab_instance", sty.header3)}
           />
 
           <div
@@ -1544,7 +1544,7 @@ function PlasmicHomepage__RenderFunc(props: {
 const PlasmicDescendants = {
   root: [
     "root",
-    "header",
+    "header3",
     "heroBanner",
     "h1",
     "productAndService",
@@ -1558,7 +1558,7 @@ const PlasmicDescendants = {
     "contactSectionFooterTop",
     "footer2"
   ],
-  header: ["header"],
+  header3: ["header3"],
   heroBanner: ["heroBanner", "h1"],
   h1: ["h1"],
   productAndService: ["productAndService", "foreground2"],
@@ -1577,7 +1577,7 @@ type DescendantsType<T extends NodeNameType> =
   (typeof PlasmicDescendants)[T][number];
 type NodeDefaultElementType = {
   root: "div";
-  header: typeof Header;
+  header3: typeof Header3;
   heroBanner: "div";
   h1: "h1";
   productAndService: "div";
@@ -1652,7 +1652,7 @@ export const PlasmicHomepage = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    header: makeNodeComponent("header"),
+    header3: makeNodeComponent("header3"),
     heroBanner: makeNodeComponent("heroBanner"),
     h1: makeNodeComponent("h1"),
     productAndService: makeNodeComponent("productAndService"),

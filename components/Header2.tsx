@@ -2,9 +2,9 @@
 // This file is owned by you, feel free to edit as you see fit.
 import * as React from "react";
 import {
-  PlasmicHeader,
-  DefaultHeaderProps
-} from "./plasmic/psd_j/PlasmicHeader";
+  PlasmicHeader2,
+  DefaultHeader2Props
+} from "./plasmic/psd_j/PlasmicHeader2";
 import { HTMLElementRefOf } from "@plasmicapp/react-web";
 
 // Your component props start with props for variants and slots you defined
@@ -14,32 +14,32 @@ import { HTMLElementRefOf } from "@plasmicapp/react-web";
 // If you don't want to expose certain variants or slots as a prop, you can use
 // Omit to hide them:
 //
-// interface HeaderProps extends Omit<DefaultHeaderProps, "hideProps1"|"hideProp2"> {
+// interface Header2Props extends Omit<DefaultHeader2Props, "hideProps1"|"hideProp2"> {
 //   // etc.
 // }
 //
-// You can also stop extending from DefaultHeaderProps altogether and have
+// You can also stop extending from DefaultHeader2Props altogether and have
 // total control over the props for your component.
-export interface HeaderProps extends DefaultHeaderProps {}
+export interface Header2Props extends DefaultHeader2Props {}
 
-function Header_(props: HeaderProps, ref: HTMLElementRefOf<"div">) {
-  // Use PlasmicHeader to render this component as it was
+function Header2_(props: Header2Props, ref: HTMLElementRefOf<"div">) {
+  // Use PlasmicHeader2 to render this component as it was
   // designed in Plasmic, by activating the appropriate variants,
   // attaching the appropriate event handlers, etc.  You
   // can also install whatever React hooks you need here to manage state or
   // fetch data.
   //
-  // Props you can pass into PlasmicHeader are:
+  // Props you can pass into PlasmicHeader2 are:
   // 1. Variants you want to activate,
   // 2. Contents for slots you want to fill,
   // 3. Overrides for any named node in the component to attach behavior and data,
   // 4. Props to set on the root node.
   //
-  // By default, we are just piping all HeaderProps here, but feel free
+  // By default, we are just piping all Header2Props here, but feel free
   // to do whatever works for you.
 
-  return <PlasmicHeader root={{ ref }} {...props} />;
+  return <PlasmicHeader2 root={{ ref }} {...props} />;
 }
 
-const Header = React.forwardRef(Header_);
-export default Header;
+const Header2 = React.forwardRef(Header2_);
+export default Header2;

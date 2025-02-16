@@ -59,10 +59,8 @@ import {
   useGlobalActions
 } from "@plasmicapp/react-web/lib/host";
 
-import Header from "../../Header"; // plasmic-import: fMrxAl7coXSG/component
-import { TabsContainer } from "@plasmicpkgs/plasmic-tabs";
-import { TabButton } from "@plasmicpkgs/plasmic-tabs";
-import Button from "../../Button"; // plasmic-import: lBHNzts6tFyj/component
+import Header3 from "../../Header3"; // plasmic-import: Fs6IO6-MbSpr/component
+import Button from "../../Button"; // plasmic-import: 9LMKHLPEcISp/component
 import Test from "../../Test"; // plasmic-import: N8x7vUKS4T3n/component
 import Footer2 from "../../Footer2"; // plasmic-import: 9pDOvBRTOpt9/component
 
@@ -74,11 +72,9 @@ import plasmic_antd_5_hostless_css from "../antd_5_hostless/plasmic.module.css";
 import projectcss from "./plasmic.module.css"; // plasmic-import: wauR2tk1hPNKxeSBCX7ndF/projectcss
 import sty from "./PlasmicHistory.module.css"; // plasmic-import: R-uUGxGO-lLS/css
 
-import CheckSvgIcon from "../plasmic_tabs/icons/PlasmicIcon__CheckSvg"; // plasmic-import: zq2s7N0xWucT/icon
-import IconIcon from "../plasmic_tabs/icons/PlasmicIcon__Icon"; // plasmic-import: 8K40faRNhuCj/icon
 import ArrowRightIcon from "./icons/PlasmicIcon__ArrowRight"; // plasmic-import: HZOtD1fAEgQN/icon
 import Icon8Icon from "./icons/PlasmicIcon__Icon8"; // plasmic-import: YDVzHW_YDla2/icon
-import IconIcon2 from "./icons/PlasmicIcon__Icon"; // plasmic-import: 8DjHUJI81s9x/icon
+import IconIcon from "./icons/PlasmicIcon__Icon"; // plasmic-import: 8DjHUJI81s9x/icon
 
 createPlasmicElementProxy;
 
@@ -93,10 +89,10 @@ export const PlasmicHistory__ArgProps = new Array<ArgPropType>();
 
 export type PlasmicHistory__OverridesType = {
   page?: Flex__<"div">;
-  header?: Flex__<typeof Header>;
+  header3?: Flex__<typeof Header3>;
   bannerHeader?: Flex__<"div">;
   h1?: Flex__<"h1">;
-  tabsContainer?: Flex__<typeof TabsContainer>;
+  subHeader?: Flex__<"div">;
   aboutUs?: Flex__<"div">;
   foreground?: Flex__<"div">;
   picture2?: Flex__<"div">;
@@ -179,10 +175,10 @@ function PlasmicHistory__RenderFunc(props: {
             sty.page
           )}
         >
-          <Header
-            data-plasmic-name={"header"}
-            data-plasmic-override={overrides.header}
-            className={classNames("__wab_instance", sty.header)}
+          <Header3
+            data-plasmic-name={"header3"}
+            data-plasmic-override={overrides.header3}
+            className={classNames("__wab_instance", sty.header3)}
           />
 
           <div
@@ -208,115 +204,73 @@ function PlasmicHistory__RenderFunc(props: {
                     )}
                   >
                     {hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? "\u0e1b\u0e23\u0e30\u0e27\u0e31\u0e15\u0e34\u0e04\u0e27\u0e32\u0e21\u0e40\u0e1b\u0e47\u0e19\u0e21\u0e32"
-                      : "\u0e1b\u0e23\u0e30\u0e27\u0e31\u0e15\u0e34\u0e04\u0e27\u0e32\u0e21\u0e40\u0e1b\u0e47\u0e19\u0e21\u0e32"}
+                      ? "\u0e01\u0e25\u0e38\u0e48\u0e21\u0e1a\u0e23\u0e34\u0e29\u0e31\u0e17\u0e1c\u0e14\u0e38\u0e07\u0e28\u0e34\u0e25\u0e1b\u0e4c"
+                      : "\u0e01\u0e25\u0e38\u0e48\u0e21\u0e1a\u0e23\u0e34\u0e29\u0e31\u0e17\u0e1c\u0e14\u0e38\u0e07\u0e28\u0e34\u0e25\u0e1b\u0e4c"}
                   </h1>
                 </Stack__>
               </div>
             </div>
           </div>
-          <TabsContainer
-            data-plasmic-name={"tabsContainer"}
-            data-plasmic-override={overrides.tabsContainer}
-            initialKey={"tab1"}
+          <div
+            data-plasmic-name={"subHeader"}
+            data-plasmic-override={overrides.subHeader}
+            className={classNames(projectcss.all, sty.subHeader)}
           >
-            <DataCtxReader__>
-              {$ctx => (
-                <div className={classNames(projectcss.all, sty.freeBox__aa0U9)}>
-                  <Stack__
-                    as={"div"}
-                    hasGap={true}
-                    className={classNames(projectcss.all, sty.freeBox__xykb8)}
-                  >
-                    <TabButton
-                      className={classNames(
-                        "__wab_instance",
-                        sty.tabButton__xscVw
-                      )}
-                      tabKey={"tab1"}
-                    >
-                      <Button>
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__uFeJg
-                          )}
-                        >
-                          {
-                            "\u0e1b\u0e23\u0e30\u0e27\u0e31\u0e15\u0e34\u0e04\u0e27\u0e32\u0e21\u0e40\u0e1b\u0e47\u0e19\u0e21\u0e32"
-                          }
-                        </div>
-                      </Button>
-                    </TabButton>
-                    <TabButton
-                      className={classNames(
-                        "__wab_instance",
-                        sty.tabButton__aw0Qc
-                      )}
-                      tabKey={"tab1"}
-                    >
-                      <Button>
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__r1KY7
-                          )}
-                        >
-                          {
-                            "\u0e2a\u0e32\u0e2a\u0e4c\u0e19\u0e08\u0e32\u0e01\u0e1c\u0e39\u0e49\u0e1a\u0e23\u0e34\u0e2b\u0e32\u0e23"
-                          }
-                        </div>
-                      </Button>
-                    </TabButton>
-                    <TabButton
-                      className={classNames(
-                        "__wab_instance",
-                        sty.tabButton__nuBf
-                      )}
-                      tabKey={"tab1"}
-                    >
-                      <Button>
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text___8LuGo
-                          )}
-                        >
-                          {
-                            "\u0e1e\u0e31\u0e19\u0e18\u0e01\u0e34\u0e08 \u0e41\u0e25\u0e30\u0e04\u0e33\u0e21\u0e31\u0e48\u0e19\u0e2a\u0e31\u0e0d\u0e0d\u0e32"
-                          }
-                        </div>
-                      </Button>
-                    </TabButton>
-                    <TabButton
-                      className={classNames(
-                        "__wab_instance",
-                        sty.tabButton__jvjj9
-                      )}
-                      tabKey={"tab1"}
-                    >
-                      <Button>
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text___2GSpk
-                          )}
-                        >
-                          {
-                            "\u0e19\u0e42\u0e22\u0e1a\u0e32\u0e22\u0e04\u0e38\u0e13\u0e20\u0e32\u0e1e\u0e41\u0e25\u0e30\u0e04\u0e27\u0e32\u0e21\u0e1b\u0e25\u0e2d\u0e14\u0e20\u0e31\u0e22"
-                          }
-                        </div>
-                      </Button>
-                    </TabButton>
-                  </Stack__>
-                </div>
-              )}
-            </DataCtxReader__>
-          </TabsContainer>
+            <Button className={classNames("__wab_instance", sty.button__oodCt)}>
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__aZriJ
+                )}
+              >
+                {
+                  "\u0e1b\u0e23\u0e30\u0e27\u0e31\u0e15\u0e34\u0e04\u0e27\u0e32\u0e21\u0e40\u0e1b\u0e47\u0e19\u0e21\u0e32"
+                }
+              </div>
+            </Button>
+            <Button className={classNames("__wab_instance", sty.button__eJj5O)}>
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__s67GD
+                )}
+              >
+                {
+                  "\u0e2a\u0e32\u0e2a\u0e4c\u0e19\u0e08\u0e32\u0e01\u0e1c\u0e39\u0e49\u0e1a\u0e23\u0e34\u0e2b\u0e32\u0e23"
+                }
+              </div>
+            </Button>
+            <Button className={classNames("__wab_instance", sty.button__q4HKd)}>
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__yy8T
+                )}
+              >
+                {
+                  "\u0e1e\u0e31\u0e19\u0e18\u0e01\u0e34\u0e08 \u0e41\u0e25\u0e30\u0e04\u0e33\u0e21\u0e31\u0e48\u0e19\u0e2a\u0e31\u0e0d\u0e0d\u0e32"
+                }
+              </div>
+            </Button>
+            <Button
+              className={classNames("__wab_instance", sty.button___9GxNg)}
+            >
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__kJczh
+                )}
+              >
+                {
+                  "\u0e19\u0e42\u0e22\u0e1a\u0e32\u0e22\u0e04\u0e38\u0e13\u0e20\u0e32\u0e1e\u0e41\u0e25\u0e30\u0e04\u0e27\u0e32\u0e21\u0e1b\u0e25\u0e2d\u0e14\u0e20\u0e31\u0e22"
+                }
+              </div>
+            </Button>
+          </div>
           <Stack__
             as={"div"}
             data-plasmic-name={"aboutUs"}
@@ -358,8 +312,8 @@ function PlasmicHistory__RenderFunc(props: {
                         )}
                       >
                         {hasVariant(globalVariants, "screen", "mobileOnly")
-                          ? "\u0e01\u0e25\u0e38\u0e48\u0e21\u0e1a\u0e23\u0e34\u0e29\u0e31\u0e17\u0e1c\u0e14\u0e38\u0e07\u0e28\u0e34\u0e25\u0e1b\u0e4c"
-                          : "\u0e01\u0e25\u0e38\u0e48\u0e21\u0e1a\u0e23\u0e34\u0e29\u0e31\u0e17\u0e1c\u0e14\u0e38\u0e07\u0e28\u0e34\u0e25\u0e1b\u0e4c"}
+                          ? "\u0e1b\u0e23\u0e30\u0e27\u0e31\u0e15\u0e34\u0e04\u0e27\u0e32\u0e21\u0e40\u0e1b\u0e47\u0e19\u0e21\u0e32"
+                          : "\u0e1b\u0e23\u0e30\u0e27\u0e31\u0e15\u0e34\u0e04\u0e27\u0e32\u0e21\u0e40\u0e1b\u0e47\u0e19\u0e21\u0e32"}
                       </h2>
                       <Stack__
                         as={"div"}
@@ -503,7 +457,7 @@ function PlasmicHistory__RenderFunc(props: {
                             platform={"nextjs"}
                           >
                             {false ? (
-                              <IconIcon2
+                              <IconIcon
                                 className={classNames(
                                   projectcss.all,
                                   sty.svg__heDfr
@@ -523,7 +477,7 @@ function PlasmicHistory__RenderFunc(props: {
                               }
                             </div>
                             {false ? (
-                              <IconIcon2
+                              <IconIcon
                                 className={classNames(
                                   projectcss.all,
                                   sty.svg__gd7Lk
@@ -597,7 +551,7 @@ function PlasmicHistory__RenderFunc(props: {
                             platform={"nextjs"}
                           >
                             {false ? (
-                              <IconIcon2
+                              <IconIcon
                                 className={classNames(
                                   projectcss.all,
                                   sty.svg__hCmj
@@ -617,7 +571,7 @@ function PlasmicHistory__RenderFunc(props: {
                               }
                             </div>
                             {false ? (
-                              <IconIcon2
+                              <IconIcon
                                 className={classNames(
                                   projectcss.all,
                                   sty.svg__eVh15
@@ -694,7 +648,7 @@ function PlasmicHistory__RenderFunc(props: {
                             platform={"nextjs"}
                           >
                             {false ? (
-                              <IconIcon2
+                              <IconIcon
                                 className={classNames(
                                   projectcss.all,
                                   sty.svg__cAgPs
@@ -714,7 +668,7 @@ function PlasmicHistory__RenderFunc(props: {
                               }
                             </div>
                             {false ? (
-                              <IconIcon2
+                              <IconIcon
                                 className={classNames(
                                   projectcss.all,
                                   sty.svg__r56R
@@ -788,7 +742,7 @@ function PlasmicHistory__RenderFunc(props: {
                             platform={"nextjs"}
                           >
                             {false ? (
-                              <IconIcon2
+                              <IconIcon
                                 className={classNames(
                                   projectcss.all,
                                   sty.svg__r5Mz
@@ -808,7 +762,7 @@ function PlasmicHistory__RenderFunc(props: {
                               }
                             </div>
                             {false ? (
-                              <IconIcon2
+                              <IconIcon
                                 className={classNames(
                                   projectcss.all,
                                   sty.svg__ylglc
@@ -885,7 +839,7 @@ function PlasmicHistory__RenderFunc(props: {
                             platform={"nextjs"}
                           >
                             {false ? (
-                              <IconIcon2
+                              <IconIcon
                                 className={classNames(
                                   projectcss.all,
                                   sty.svg__g9Dfl
@@ -905,7 +859,7 @@ function PlasmicHistory__RenderFunc(props: {
                               }
                             </div>
                             {false ? (
-                              <IconIcon2
+                              <IconIcon
                                 className={classNames(
                                   projectcss.all,
                                   sty.svg__kJJao
@@ -979,7 +933,7 @@ function PlasmicHistory__RenderFunc(props: {
                             platform={"nextjs"}
                           >
                             {false ? (
-                              <IconIcon2
+                              <IconIcon
                                 className={classNames(
                                   projectcss.all,
                                   sty.svg__hv0Nz
@@ -999,7 +953,7 @@ function PlasmicHistory__RenderFunc(props: {
                               }
                             </div>
                             {false ? (
-                              <IconIcon2
+                              <IconIcon
                                 className={classNames(
                                   projectcss.all,
                                   sty.svg___9Hwwl
@@ -1529,13 +1483,13 @@ function PlasmicHistory__RenderFunc(props: {
                     platform={"nextjs"}
                   >
                     {false ? (
-                      <IconIcon2
+                      <IconIcon
                         className={classNames(projectcss.all, sty.svg___1CqJ)}
                         role={"img"}
                       />
                     ) : null}
                     {false ? (
-                      <IconIcon2
+                      <IconIcon
                         className={classNames(projectcss.all, sty.svg___9IoKg)}
                         role={"img"}
                       />
@@ -1999,10 +1953,10 @@ function PlasmicHistory__RenderFunc(props: {
 const PlasmicDescendants = {
   page: [
     "page",
-    "header",
+    "header3",
     "bannerHeader",
     "h1",
-    "tabsContainer",
+    "subHeader",
     "aboutUs",
     "foreground",
     "picture2",
@@ -2012,10 +1966,10 @@ const PlasmicDescendants = {
     "left2",
     "footer2"
   ],
-  header: ["header"],
+  header3: ["header3"],
   bannerHeader: ["bannerHeader", "h1"],
   h1: ["h1"],
-  tabsContainer: ["tabsContainer"],
+  subHeader: ["subHeader"],
   aboutUs: ["aboutUs", "foreground"],
   foreground: ["foreground"],
   picture2: ["picture2"],
@@ -2030,10 +1984,10 @@ type DescendantsType<T extends NodeNameType> =
   (typeof PlasmicDescendants)[T][number];
 type NodeDefaultElementType = {
   page: "div";
-  header: typeof Header;
+  header3: typeof Header3;
   bannerHeader: "div";
   h1: "h1";
-  tabsContainer: typeof TabsContainer;
+  subHeader: "div";
   aboutUs: "div";
   foreground: "div";
   picture2: "div";
@@ -2104,10 +2058,10 @@ export const PlasmicHistory = Object.assign(
   makeNodeComponent("page"),
   {
     // Helper components rendering sub-elements
-    header: makeNodeComponent("header"),
+    header3: makeNodeComponent("header3"),
     bannerHeader: makeNodeComponent("bannerHeader"),
     h1: makeNodeComponent("h1"),
-    tabsContainer: makeNodeComponent("tabsContainer"),
+    subHeader: makeNodeComponent("subHeader"),
     aboutUs: makeNodeComponent("aboutUs"),
     foreground: makeNodeComponent("foreground"),
     picture2: makeNodeComponent("picture2"),
