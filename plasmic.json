@@ -992,20 +992,6 @@
           "componentType": "component"
         },
         {
-          "id": "R-uUGxGO-lLS",
-          "name": "History",
-          "type": "managed",
-          "projectId": "wauR2tk1hPNKxeSBCX7ndF",
-          "renderModuleFilePath": "plasmic/psd_j/PlasmicHistory.tsx",
-          "importSpec": {
-            "modulePath": "../pages/History.tsx"
-          },
-          "cssFilePath": "plasmic/psd_j/PlasmicHistory.module.css",
-          "scheme": "blackbox",
-          "componentType": "page",
-          "path": "/History"
-        },
-        {
           "id": "s0LCpaUf4pqV",
           "name": "ProductAndService",
           "type": "managed",
@@ -1141,6 +1127,48 @@
           "cssFilePath": "plasmic/psd_j/PlasmicHeader3.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "R-uUGxGO-lLS",
+          "name": "PadungsilpaGroup",
+          "type": "managed",
+          "projectId": "wauR2tk1hPNKxeSBCX7ndF",
+          "renderModuleFilePath": "plasmic/psd_j/PlasmicPadungsilpaGroup.tsx",
+          "importSpec": {
+            "modulePath": "../pages/History.tsx"
+          },
+          "cssFilePath": "plasmic/psd_j/PlasmicPadungsilpaGroup.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/History"
+        },
+        {
+          "id": "bh_FeQsX5gbb",
+          "name": "PadungsilpaGroup2",
+          "type": "managed",
+          "projectId": "wauR2tk1hPNKxeSBCX7ndF",
+          "renderModuleFilePath": "plasmic/psd_j/PlasmicPadungsilpaGroup2.tsx",
+          "importSpec": {
+            "modulePath": "../pages/Management Team.tsx"
+          },
+          "cssFilePath": "plasmic/psd_j/PlasmicPadungsilpaGroup2.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/Management Team"
+        },
+        {
+          "id": "KiS0rJjR65tl",
+          "name": "PadungsilpaGroup3",
+          "type": "managed",
+          "projectId": "wauR2tk1hPNKxeSBCX7ndF",
+          "renderModuleFilePath": "plasmic/psd_j/PlasmicPadungsilpaGroup3.tsx",
+          "importSpec": {
+            "modulePath": "../pages/Message from the Management.tsx"
+          },
+          "cssFilePath": "plasmic/psd_j/PlasmicPadungsilpaGroup3.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/Message from the Management"
         }
       ],
       "icons": [
@@ -1760,6 +1788,31 @@
           "id": "Zt7JKQ-m-0ws",
           "name": "Logo1.svg",
           "filePath": "../public/plasmic/psd_j/images/logo1Svg.svg"
+        },
+        {
+          "id": "5qfLRQCCT7Gk",
+          "name": "IMG_4064-1024x683.jpg",
+          "filePath": "../public/plasmic/psd_j/images/img40641024X683Jpg.jpg"
+        },
+        {
+          "id": "3kv1srYpasqp",
+          "name": "IMG_4059-1024x683.jpg",
+          "filePath": "../public/plasmic/psd_j/images/img40591024X683Jpg.jpg"
+        },
+        {
+          "id": "tRi-lDLIxACm",
+          "name": "IMG_4050-1024x683.jpg",
+          "filePath": "../public/plasmic/psd_j/images/img40501024X683Jpg.jpg"
+        },
+        {
+          "id": "4_gqu2gMy6i4",
+          "name": "IMG_4040-1024x683.jpg",
+          "filePath": "../public/plasmic/psd_j/images/img40401024X683Jpg.jpg"
+        },
+        {
+          "id": "BCjW2_z2E3o3",
+          "name": "IMG_4030-1024x683.jpg",
+          "filePath": "../public/plasmic/psd_j/images/img40301024X683Jpg.jpg"
         }
       ],
       "indirect": false,
