@@ -376,7 +376,7 @@ function PlasmicPadungsilpaGroup5__RenderFunc(props: {
                 sty.link__upMtu
               )}
               component={Link}
-              href={`/Automatic Tank Gauge System`}
+              href={`/Quality & Safety Policy`}
               platform={"nextjs"}
             >
               {false ? (

@@ -114,7 +114,7 @@ export type PlasmicPadungsilpaGroup2__OverridesType = {
   header3?: Flex__<typeof Header3>;
   bannerHeader?: Flex__<"div">;
   h1?: Flex__<"h1">;
-  subHeader2?: Flex__<"div">;
+  subHeader3?: Flex__<"div">;
   aboutUs?: Flex__<"div">;
   foreground?: Flex__<"div">;
   h2?: Flex__<"h2">;
@@ -232,10 +232,10 @@ function PlasmicPadungsilpaGroup2__RenderFunc(props: {
           </div>
           <Stack__
             as={"div"}
-            data-plasmic-name={"subHeader2"}
-            data-plasmic-override={overrides.subHeader2}
+            data-plasmic-name={"subHeader3"}
+            data-plasmic-override={overrides.subHeader3}
             hasGap={true}
-            className={classNames(projectcss.all, sty.subHeader2)}
+            className={classNames(projectcss.all, sty.subHeader3)}
           >
             <Stack__
               as={PlasmicLink__}
@@ -243,7 +243,7 @@ function PlasmicPadungsilpaGroup2__RenderFunc(props: {
               className={classNames(
                 projectcss.all,
                 projectcss.a,
-                sty.link__cxrJg
+                sty.link__vFiyY
               )}
               component={Link}
               href={`/History`}
@@ -251,7 +251,7 @@ function PlasmicPadungsilpaGroup2__RenderFunc(props: {
             >
               {false ? (
                 <IconIcon
-                  className={classNames(projectcss.all, sty.svg__kiMcM)}
+                  className={classNames(projectcss.all, sty.svg__fxnBm)}
                   role={"img"}
                 />
               ) : null}
@@ -259,7 +259,7 @@ function PlasmicPadungsilpaGroup2__RenderFunc(props: {
                 className={classNames(
                   projectcss.all,
                   projectcss.__wab_text,
-                  sty.text___0S3
+                  sty.text__ltEnL
                 )}
               >
                 {
@@ -268,7 +268,7 @@ function PlasmicPadungsilpaGroup2__RenderFunc(props: {
               </div>
               {false ? (
                 <IconIcon
-                  className={classNames(projectcss.all, sty.svg___4Qj6C)}
+                  className={classNames(projectcss.all, sty.svg__qoyeO)}
                   role={"img"}
                 />
               ) : null}
@@ -279,7 +279,7 @@ function PlasmicPadungsilpaGroup2__RenderFunc(props: {
               className={classNames(
                 projectcss.all,
                 projectcss.a,
-                sty.link___7Tk7I
+                sty.link__fccdH
               )}
               component={Link}
               href={`/Management Team`}
@@ -287,7 +287,7 @@ function PlasmicPadungsilpaGroup2__RenderFunc(props: {
             >
               {false ? (
                 <IconIcon
-                  className={classNames(projectcss.all, sty.svg__uiAp2)}
+                  className={classNames(projectcss.all, sty.svg__nzPbn)}
                   role={"img"}
                 />
               ) : null}
@@ -295,7 +295,43 @@ function PlasmicPadungsilpaGroup2__RenderFunc(props: {
                 className={classNames(
                   projectcss.all,
                   projectcss.__wab_text,
-                  sty.text___16Vm
+                  sty.text__yeAhD
+                )}
+              >
+                {
+                  "\u0e04\u0e13\u0e30\u0e1c\u0e39\u0e49\u0e1a\u0e23\u0e34\u0e2b\u0e32\u0e23"
+                }
+              </div>
+              {false ? (
+                <IconIcon
+                  className={classNames(projectcss.all, sty.svg__eiVg2)}
+                  role={"img"}
+                />
+              ) : null}
+            </Stack__>
+            <Stack__
+              as={PlasmicLink__}
+              hasGap={true}
+              className={classNames(
+                projectcss.all,
+                projectcss.a,
+                sty.link__cnRjh
+              )}
+              component={Link}
+              href={`/Message from the Management`}
+              platform={"nextjs"}
+            >
+              {false ? (
+                <IconIcon
+                  className={classNames(projectcss.all, sty.svg__p8Q2H)}
+                  role={"img"}
+                />
+              ) : null}
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__z644B
                 )}
               >
                 {
@@ -304,7 +340,7 @@ function PlasmicPadungsilpaGroup2__RenderFunc(props: {
               </div>
               {false ? (
                 <IconIcon
-                  className={classNames(projectcss.all, sty.svg___2KpmG)}
+                  className={classNames(projectcss.all, sty.svg__lRKh8)}
                   role={"img"}
                 />
               ) : null}
@@ -315,15 +351,15 @@ function PlasmicPadungsilpaGroup2__RenderFunc(props: {
               className={classNames(
                 projectcss.all,
                 projectcss.a,
-                sty.link__xhqEk
+                sty.link__zQudP
               )}
               component={Link}
-              href={`/Sale and Installation of Petrol Pipe System`}
+              href={`/Mission Statement and Commitment`}
               platform={"nextjs"}
             >
               {false ? (
                 <IconIcon
-                  className={classNames(projectcss.all, sty.svg__hAuX)}
+                  className={classNames(projectcss.all, sty.svg__hrDl)}
                   role={"img"}
                 />
               ) : null}
@@ -331,7 +367,7 @@ function PlasmicPadungsilpaGroup2__RenderFunc(props: {
                 className={classNames(
                   projectcss.all,
                   projectcss.__wab_text,
-                  sty.text___8GzpK
+                  sty.text__pi9Xn
                 )}
               >
                 {
@@ -340,7 +376,7 @@ function PlasmicPadungsilpaGroup2__RenderFunc(props: {
               </div>
               {false ? (
                 <IconIcon
-                  className={classNames(projectcss.all, sty.svg__gJ)}
+                  className={classNames(projectcss.all, sty.svg__x6SA4)}
                   role={"img"}
                 />
               ) : null}
@@ -351,15 +387,15 @@ function PlasmicPadungsilpaGroup2__RenderFunc(props: {
               className={classNames(
                 projectcss.all,
                 projectcss.a,
-                sty.link__kC7S
+                sty.link__tDgjw
               )}
               component={Link}
-              href={`/Automatic Tank Gauge System`}
+              href={`/Quality & Safety Policy`}
               platform={"nextjs"}
             >
               {false ? (
                 <IconIcon
-                  className={classNames(projectcss.all, sty.svg__yLnEo)}
+                  className={classNames(projectcss.all, sty.svg__jZnaB)}
                   role={"img"}
                 />
               ) : null}
@@ -367,7 +403,7 @@ function PlasmicPadungsilpaGroup2__RenderFunc(props: {
                 className={classNames(
                   projectcss.all,
                   projectcss.__wab_text,
-                  sty.text__fwk73
+                  sty.text__xIzfY
                 )}
               >
                 {
@@ -376,7 +412,7 @@ function PlasmicPadungsilpaGroup2__RenderFunc(props: {
               </div>
               {false ? (
                 <IconIcon
-                  className={classNames(projectcss.all, sty.svg__dm7Za)}
+                  className={classNames(projectcss.all, sty.svg__ji2MV)}
                   role={"img"}
                 />
               ) : null}
@@ -390,7 +426,7 @@ function PlasmicPadungsilpaGroup2__RenderFunc(props: {
                 className={classNames(
                   projectcss.all,
                   projectcss.a,
-                  sty.link__g2RvG
+                  sty.link__j35Cv
                 )}
                 component={Link}
                 href={`/Fuel Service Construction`}
@@ -398,7 +434,7 @@ function PlasmicPadungsilpaGroup2__RenderFunc(props: {
               >
                 {false ? (
                   <IconIcon
-                    className={classNames(projectcss.all, sty.svg__nLk8J)}
+                    className={classNames(projectcss.all, sty.svg__vjq4U)}
                     role={"img"}
                   />
                 ) : null}
@@ -406,7 +442,7 @@ function PlasmicPadungsilpaGroup2__RenderFunc(props: {
                   className={classNames(
                     projectcss.all,
                     projectcss.__wab_text,
-                    sty.text__u52Uq
+                    sty.text__clQWc
                   )}
                 >
                   {
@@ -415,7 +451,7 @@ function PlasmicPadungsilpaGroup2__RenderFunc(props: {
                 </div>
                 {false ? (
                   <IconIcon
-                    className={classNames(projectcss.all, sty.svg__prXrB)}
+                    className={classNames(projectcss.all, sty.svg__pueod)}
                     role={"img"}
                   />
                 ) : null}
@@ -465,8 +501,8 @@ function PlasmicPadungsilpaGroup2__RenderFunc(props: {
                         )}
                       >
                         {hasVariant(globalVariants, "screen", "mobileOnly")
-                          ? "\u0e1b\u0e23\u0e30\u0e27\u0e31\u0e15\u0e34\u0e04\u0e27\u0e32\u0e21\u0e40\u0e1b\u0e47\u0e19\u0e21\u0e32"
-                          : "\u0e2a\u0e32\u0e2a\u0e4c\u0e19\u0e08\u0e32\u0e01\u0e1c\u0e39\u0e49\u0e1a\u0e23\u0e34\u0e2b\u0e32\u0e23"}
+                          ? "\u0e04\u0e13\u0e30\u0e1c\u0e39\u0e49\u0e1a\u0e23\u0e34\u0e2b\u0e32\u0e23"
+                          : "\u0e04\u0e13\u0e30\u0e1c\u0e39\u0e49\u0e1a\u0e23\u0e34\u0e2b\u0e32\u0e23"}
                       </h2>
                     </Stack__>
                   </div>
@@ -1636,7 +1672,7 @@ const PlasmicDescendants = {
     "header3",
     "bannerHeader",
     "h1",
-    "subHeader2",
+    "subHeader3",
     "aboutUs",
     "foreground",
     "h2",
@@ -1646,7 +1682,7 @@ const PlasmicDescendants = {
   header3: ["header3"],
   bannerHeader: ["bannerHeader", "h1"],
   h1: ["h1"],
-  subHeader2: ["subHeader2"],
+  subHeader3: ["subHeader3"],
   aboutUs: ["aboutUs", "foreground", "h2"],
   foreground: ["foreground", "h2"],
   h2: ["h2"],
@@ -1661,7 +1697,7 @@ type NodeDefaultElementType = {
   header3: typeof Header3;
   bannerHeader: "div";
   h1: "h1";
-  subHeader2: "div";
+  subHeader3: "div";
   aboutUs: "div";
   foreground: "div";
   h2: "h2";
@@ -1732,7 +1768,7 @@ export const PlasmicPadungsilpaGroup2 = Object.assign(
     header3: makeNodeComponent("header3"),
     bannerHeader: makeNodeComponent("bannerHeader"),
     h1: makeNodeComponent("h1"),
-    subHeader2: makeNodeComponent("subHeader2"),
+    subHeader3: makeNodeComponent("subHeader3"),
     aboutUs: makeNodeComponent("aboutUs"),
     foreground: makeNodeComponent("foreground"),
     h2: makeNodeComponent("h2"),

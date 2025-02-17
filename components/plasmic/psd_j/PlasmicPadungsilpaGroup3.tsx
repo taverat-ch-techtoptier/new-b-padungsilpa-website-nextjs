@@ -332,7 +332,7 @@ function PlasmicPadungsilpaGroup3__RenderFunc(props: {
                 sty.link__vEMwW
               )}
               component={Link}
-              href={`/Sale and Installation of Petrol Pipe System`}
+              href={`/Mission Statement and Commitment`}
               platform={"nextjs"}
             >
               {false ? (
@@ -368,7 +368,7 @@ function PlasmicPadungsilpaGroup3__RenderFunc(props: {
                 sty.link__kw2Az
               )}
               component={Link}
-              href={`/Automatic Tank Gauge System`}
+              href={`/Quality & Safety Policy`}
               platform={"nextjs"}
             >
               {false ? (

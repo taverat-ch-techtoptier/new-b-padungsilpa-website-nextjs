@@ -367,7 +367,7 @@ function PlasmicPadungsilpaGroup4__RenderFunc(props: {
                 sty.link__lFqzY
               )}
               component={Link}
-              href={`/Automatic Tank Gauge System`}
+              href={`/Quality & Safety Policy`}
               platform={"nextjs"}
             >
               {false ? (
