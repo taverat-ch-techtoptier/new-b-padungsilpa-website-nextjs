@@ -1169,6 +1169,34 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/Message from the Management"
+        },
+        {
+          "id": "H2AlV6e6QAfN",
+          "name": "PadungsilpaGroup4",
+          "type": "managed",
+          "projectId": "wauR2tk1hPNKxeSBCX7ndF",
+          "renderModuleFilePath": "plasmic/psd_j/PlasmicPadungsilpaGroup4.tsx",
+          "importSpec": {
+            "modulePath": "../pages/Mission Statement and Commitment.tsx"
+          },
+          "cssFilePath": "plasmic/psd_j/PlasmicPadungsilpaGroup4.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/Mission Statement and Commitment"
+        },
+        {
+          "id": "lTzf5V9HpCd4",
+          "name": "PadungsilpaGroup5",
+          "type": "managed",
+          "projectId": "wauR2tk1hPNKxeSBCX7ndF",
+          "renderModuleFilePath": "plasmic/psd_j/PlasmicPadungsilpaGroup5.tsx",
+          "importSpec": {
+            "modulePath": "../pages/Quality & Safety Policy.tsx"
+          },
+          "cssFilePath": "plasmic/psd_j/PlasmicPadungsilpaGroup5.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/Quality & Safety Policy"
         }
       ],
       "icons": [
@@ -1813,6 +1841,26 @@
           "id": "BCjW2_z2E3o3",
           "name": "IMG_4030-1024x683.jpg",
           "filePath": "../public/plasmic/psd_j/images/img40301024X683Jpg.jpg"
+        },
+        {
+          "id": "Aw8njStkQofq",
+          "name": "15112019_๑๙๑๑๑๕_0028.jpg",
+          "filePath": "../public/plasmic/psd_j/images/_15112019๑๙๑๑๑๕0028Jpg.jpg"
+        },
+        {
+          "id": "zREukkRBOzYj",
+          "name": "15112019_๑๙๑๑๑๕_0002.jpg",
+          "filePath": "../public/plasmic/psd_j/images/_15112019๑๙๑๑๑๕0002Jpg.jpg"
+        },
+        {
+          "id": "tRcWd8tCecSV",
+          "name": "pds_pro2-13-1024x768.jpg",
+          "filePath": "../public/plasmic/psd_j/images/pdsPro2131024X768Jpg.jpg"
+        },
+        {
+          "id": "nIZN_J_LNOWF",
+          "name": "405394.jpg",
+          "filePath": "../public/plasmic/psd_j/images/_405394Jpg.jpg"
         }
       ],
       "indirect": false,

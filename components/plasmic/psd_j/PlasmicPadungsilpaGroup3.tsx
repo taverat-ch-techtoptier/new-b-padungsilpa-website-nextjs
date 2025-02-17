@@ -95,8 +95,8 @@ export type PlasmicPadungsilpaGroup3__OverridesType = {
   aboutUs?: Flex__<"div">;
   foreground?: Flex__<"div">;
   columns?: Flex__<"div">;
+  column?: Flex__<"div">;
   h2?: Flex__<"h2">;
-  picture2?: Flex__<"div">;
   footer2?: Flex__<typeof Footer2>;
 };
 
@@ -463,7 +463,9 @@ function PlasmicPadungsilpaGroup3__RenderFunc(props: {
                   className={classNames(projectcss.all, sty.columns)}
                 >
                   <div
-                    className={classNames(projectcss.all, sty.column__lpClm)}
+                    data-plasmic-name={"column"}
+                    data-plasmic-override={overrides.column}
+                    className={classNames(projectcss.all, sty.column)}
                   >
                     <Stack__
                       as={"div"}
@@ -583,6 +585,40 @@ function PlasmicPadungsilpaGroup3__RenderFunc(props: {
                               {
                                 "\u0e02\u0e2d\u0e41\u0e2a\u0e14\u0e07\u0e04\u0e27\u0e32\u0e21\u0e19\u0e31\u0e1a\u0e16\u0e37\u0e2d,"
                               }
+                            </span>
+                            <React.Fragment>{"\n"}</React.Fragment>
+                            <span
+                              className={
+                                "plasmic_default__all plasmic_default__span"
+                              }
+                              style={{
+                                fontWeight: 700,
+                                color: "var(--token-FC-eCcS5kWsT)"
+                              }}
+                            >
+                              {
+                                "\u0e04\u0e38\u0e13\u0e2a\u0e38\u0e20\u0e23\u0e32 \u0e2a\u0e34\u0e19\u0e2a\u0e21\u0e38\u0e17\u0e23\u0e1c\u0e14\u0e38\u0e07"
+                              }
+                            </span>
+                            <React.Fragment>{"\n"}</React.Fragment>
+                            <span
+                              className={
+                                "plasmic_default__all plasmic_default__span"
+                              }
+                              style={{ color: "#000000" }}
+                            >
+                              {
+                                "\u0e01\u0e23\u0e23\u0e21\u0e01\u0e32\u0e23\u0e1c\u0e39\u0e49\u0e08\u0e31\u0e14\u0e01\u0e32"
+                              }
+                            </span>
+                            <React.Fragment>{""}</React.Fragment>
+                            <span
+                              className={
+                                "plasmic_default__all plasmic_default__span"
+                              }
+                              style={{ color: "var(--token-FC-eCcS5kWsT)" }}
+                            >
+                              {"\u0e23"}
                             </span>
                           </React.Fragment>
                         </div>
@@ -1167,68 +1203,6 @@ function PlasmicPadungsilpaGroup3__RenderFunc(props: {
               </Stack__>
             </Stack__>
           </Stack__>
-          <Stack__
-            as={"div"}
-            data-plasmic-name={"picture2"}
-            data-plasmic-override={overrides.picture2}
-            hasGap={true}
-            className={classNames(projectcss.all, sty.picture2)}
-          >
-            <div className={classNames(projectcss.all, sty.column__sEdMm)}>
-              <PlasmicImg__
-                alt={""}
-                className={classNames(sty.img__iujxd)}
-                displayHeight={
-                  hasVariant(globalVariants, "screen", "mobileOnly")
-                    ? "240px"
-                    : "100%"
-                }
-                displayMaxHeight={"none"}
-                displayMaxWidth={"100%"}
-                displayMinHeight={"0"}
-                displayMinWidth={"0"}
-                displayWidth={"auto"}
-                loading={"lazy"}
-                src={{
-                  src: "/plasmic/psd_j/images/padungsilpaGroup04Pf0270ScaledJpg.jpg",
-                  fullWidth: 1920,
-                  fullHeight: 1183,
-                  aspectRatio: undefined
-                }}
-              />
-            </div>
-            <div className={classNames(projectcss.all, sty.column__kg3NI)}>
-              <PlasmicImg__
-                alt={""}
-                className={classNames(sty.img__in1QB)}
-                displayHeight={
-                  hasVariant(globalVariants, "screen", "mobileOnly")
-                    ? "240px"
-                    : "auto"
-                }
-                displayMaxHeight={"none"}
-                displayMaxWidth={"100%"}
-                displayMinHeight={
-                  hasVariant(globalVariants, "screen", "mobileOnly")
-                    ? "240px"
-                    : "0"
-                }
-                displayMinWidth={"0"}
-                displayWidth={
-                  hasVariant(globalVariants, "screen", "mobileOnly")
-                    ? "100%"
-                    : "auto"
-                }
-                loading={"lazy"}
-                src={{
-                  src: "/plasmic/psd_j/images/padungsilpaGroup08Pf0437ScaledJpg.jpg",
-                  fullWidth: 1920,
-                  fullHeight: 1203,
-                  aspectRatio: undefined
-                }}
-              />
-            </div>
-          </Stack__>
           <Footer2
             data-plasmic-name={"footer2"}
             data-plasmic-override={overrides.footer2}
@@ -1250,19 +1224,19 @@ const PlasmicDescendants = {
     "aboutUs",
     "foreground",
     "columns",
+    "column",
     "h2",
-    "picture2",
     "footer2"
   ],
   header3: ["header3"],
   bannerHeader: ["bannerHeader", "h1"],
   h1: ["h1"],
   subHeader2: ["subHeader2"],
-  aboutUs: ["aboutUs", "foreground", "columns", "h2"],
-  foreground: ["foreground", "columns", "h2"],
-  columns: ["columns", "h2"],
+  aboutUs: ["aboutUs", "foreground", "columns", "column", "h2"],
+  foreground: ["foreground", "columns", "column", "h2"],
+  columns: ["columns", "column", "h2"],
+  column: ["column", "h2"],
   h2: ["h2"],
-  picture2: ["picture2"],
   footer2: ["footer2"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
@@ -1277,8 +1251,8 @@ type NodeDefaultElementType = {
   aboutUs: "div";
   foreground: "div";
   columns: "div";
+  column: "div";
   h2: "h2";
-  picture2: "div";
   footer2: typeof Footer2;
 };
 
@@ -1349,8 +1323,8 @@ export const PlasmicPadungsilpaGroup3 = Object.assign(
     aboutUs: makeNodeComponent("aboutUs"),
     foreground: makeNodeComponent("foreground"),
     columns: makeNodeComponent("columns"),
+    column: makeNodeComponent("column"),
     h2: makeNodeComponent("h2"),
-    picture2: makeNodeComponent("picture2"),
     footer2: makeNodeComponent("footer2"),
 
     // Metadata about props expected for PlasmicPadungsilpaGroup3
