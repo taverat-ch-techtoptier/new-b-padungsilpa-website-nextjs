@@ -25,6 +25,7 @@
   flex-direction: row;
   max-width: 1440px;
   margin-left: 0px;
+  background: var(--token-LePsFgXAH3gN);
   min-width: 0;
   --plsmc-rc-col-gap: 0px;
   padding: 40px 64px;

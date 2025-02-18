@@ -483,10 +483,10 @@
   transition-property: all;
   transition-duration: 0.5s;
   transition-timing-function: ease-out;
-  display: flex;
   flex-direction: row;
   cursor: pointer;
   color: var(--token-FC-eCcS5kWsT);
+  display: none;
   -webkit-transition-property: all;
   -webkit-transition-timing-function: ease-out;
   -webkit-transition-duration: 0.5s;
@@ -510,6 +510,11 @@
   > picture
   > img {
   margin-left: 8px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .link__gbxpe {
+    display: flex;
+  }
 }
 .svg__rj9TE {
   width: 24px;

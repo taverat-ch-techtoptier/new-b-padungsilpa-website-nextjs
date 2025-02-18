@@ -92,7 +92,7 @@ export type PlasmicProductAndService2__OverridesType = {
   header3?: Flex__<typeof Header3>;
   bannerHeader?: Flex__<"div">;
   h1?: Flex__<"h1">;
-  subHeader?: Flex__<"div">;
+  subHeader2?: Flex__<"div">;
   foreground?: Flex__<"div">;
   columns?: Flex__<"div">;
   picture2?: Flex__<"div">;
@@ -211,10 +211,10 @@ function PlasmicProductAndService2__RenderFunc(props: {
           </div>
           <Stack__
             as={"div"}
-            data-plasmic-name={"subHeader"}
-            data-plasmic-override={overrides.subHeader}
+            data-plasmic-name={"subHeader2"}
+            data-plasmic-override={overrides.subHeader2}
             hasGap={true}
-            className={classNames(projectcss.all, sty.subHeader)}
+            className={classNames(projectcss.all, sty.subHeader2)}
           >
             <Stack__
               as={PlasmicLink__}
@@ -222,7 +222,7 @@ function PlasmicProductAndService2__RenderFunc(props: {
               className={classNames(
                 projectcss.all,
                 projectcss.a,
-                sty.link__oye2F
+                sty.link___0Ijyc
               )}
               component={Link}
               href={`/Fuel Service Construction`}
@@ -230,7 +230,7 @@ function PlasmicProductAndService2__RenderFunc(props: {
             >
               {false ? (
                 <IconIcon
-                  className={classNames(projectcss.all, sty.svg__pkiVd)}
+                  className={classNames(projectcss.all, sty.svg__tbtVh)}
                   role={"img"}
                 />
               ) : null}
@@ -238,7 +238,7 @@ function PlasmicProductAndService2__RenderFunc(props: {
                 className={classNames(
                   projectcss.all,
                   projectcss.__wab_text,
-                  sty.text__m8Ilt
+                  sty.text__cdvSm
                 )}
               >
                 {
@@ -247,7 +247,7 @@ function PlasmicProductAndService2__RenderFunc(props: {
               </div>
               {false ? (
                 <IconIcon
-                  className={classNames(projectcss.all, sty.svg__srQ)}
+                  className={classNames(projectcss.all, sty.svg__ksHu)}
                   role={"img"}
                 />
               ) : null}
@@ -258,7 +258,7 @@ function PlasmicProductAndService2__RenderFunc(props: {
               className={classNames(
                 projectcss.all,
                 projectcss.a,
-                sty.link___8XHdj
+                sty.link__zlVuc
               )}
               component={Link}
               href={`/PERMATANK and Different Types of Fuel Tanks`}
@@ -266,7 +266,7 @@ function PlasmicProductAndService2__RenderFunc(props: {
             >
               {false ? (
                 <IconIcon
-                  className={classNames(projectcss.all, sty.svg__jKiXo)}
+                  className={classNames(projectcss.all, sty.svg__lTx7A)}
                   role={"img"}
                 />
               ) : null}
@@ -274,7 +274,7 @@ function PlasmicProductAndService2__RenderFunc(props: {
                 className={classNames(
                   projectcss.all,
                   projectcss.__wab_text,
-                  sty.text__eu0Ok
+                  sty.text__s8Hrm
                 )}
               >
                 {
@@ -283,7 +283,7 @@ function PlasmicProductAndService2__RenderFunc(props: {
               </div>
               {false ? (
                 <IconIcon
-                  className={classNames(projectcss.all, sty.svg__jwwLc)}
+                  className={classNames(projectcss.all, sty.svg__nyBma)}
                   role={"img"}
                 />
               ) : null}
@@ -294,7 +294,7 @@ function PlasmicProductAndService2__RenderFunc(props: {
               className={classNames(
                 projectcss.all,
                 projectcss.a,
-                sty.link__iySPp
+                sty.link___9Ap3K
               )}
               component={Link}
               href={`/Sale and Installation of Petrol Pipe System`}
@@ -302,7 +302,7 @@ function PlasmicProductAndService2__RenderFunc(props: {
             >
               {false ? (
                 <IconIcon
-                  className={classNames(projectcss.all, sty.svg__vkHEt)}
+                  className={classNames(projectcss.all, sty.svg__zR7Ji)}
                   role={"img"}
                 />
               ) : null}
@@ -310,7 +310,7 @@ function PlasmicProductAndService2__RenderFunc(props: {
                 className={classNames(
                   projectcss.all,
                   projectcss.__wab_text,
-                  sty.text__aebZv
+                  sty.text__egaFn
                 )}
               >
                 {
@@ -319,7 +319,7 @@ function PlasmicProductAndService2__RenderFunc(props: {
               </div>
               {false ? (
                 <IconIcon
-                  className={classNames(projectcss.all, sty.svg__lu93P)}
+                  className={classNames(projectcss.all, sty.svg___1VQm0)}
                   role={"img"}
                 />
               ) : null}
@@ -330,7 +330,7 @@ function PlasmicProductAndService2__RenderFunc(props: {
               className={classNames(
                 projectcss.all,
                 projectcss.a,
-                sty.link___38OCl
+                sty.link__j9WwR
               )}
               component={Link}
               href={`/Automatic Tank Gauge System`}
@@ -338,7 +338,7 @@ function PlasmicProductAndService2__RenderFunc(props: {
             >
               {false ? (
                 <IconIcon
-                  className={classNames(projectcss.all, sty.svg__iGx5V)}
+                  className={classNames(projectcss.all, sty.svg__wn7GM)}
                   role={"img"}
                 />
               ) : null}
@@ -346,7 +346,7 @@ function PlasmicProductAndService2__RenderFunc(props: {
                 className={classNames(
                   projectcss.all,
                   projectcss.__wab_text,
-                  sty.text___1Q1Rw
+                  sty.text___2OW6P
                 )}
               >
                 {
@@ -355,7 +355,7 @@ function PlasmicProductAndService2__RenderFunc(props: {
               </div>
               {false ? (
                 <IconIcon
-                  className={classNames(projectcss.all, sty.svg__ermLh)}
+                  className={classNames(projectcss.all, sty.svg__itDZv)}
                   role={"img"}
                 />
               ) : null}
@@ -366,7 +366,7 @@ function PlasmicProductAndService2__RenderFunc(props: {
               className={classNames(
                 projectcss.all,
                 projectcss.a,
-                sty.link___9X2D9
+                sty.link__p5G8
               )}
               component={Link}
               href={`/Fuel Tanks & Equipment`}
@@ -374,7 +374,7 @@ function PlasmicProductAndService2__RenderFunc(props: {
             >
               {false ? (
                 <IconIcon
-                  className={classNames(projectcss.all, sty.svg__dc8Pq)}
+                  className={classNames(projectcss.all, sty.svg__l4Wel)}
                   role={"img"}
                 />
               ) : null}
@@ -382,7 +382,7 @@ function PlasmicProductAndService2__RenderFunc(props: {
                 className={classNames(
                   projectcss.all,
                   projectcss.__wab_text,
-                  sty.text__igKtm
+                  sty.text__zRfKa
                 )}
               >
                 {
@@ -391,7 +391,7 @@ function PlasmicProductAndService2__RenderFunc(props: {
               </div>
               {false ? (
                 <IconIcon
-                  className={classNames(projectcss.all, sty.svg__hVami)}
+                  className={classNames(projectcss.all, sty.svg__frwla)}
                   role={"img"}
                 />
               ) : null}
@@ -402,7 +402,7 @@ function PlasmicProductAndService2__RenderFunc(props: {
               className={classNames(
                 projectcss.all,
                 projectcss.a,
-                sty.link__jCPeG
+                sty.link___7GC6Z
               )}
               component={Link}
               href={`/Fuel Tanks & Equipment`}
@@ -410,7 +410,7 @@ function PlasmicProductAndService2__RenderFunc(props: {
             >
               {false ? (
                 <IconIcon
-                  className={classNames(projectcss.all, sty.svg__nfPmE)}
+                  className={classNames(projectcss.all, sty.svg___2UyL)}
                   role={"img"}
                 />
               ) : null}
@@ -418,7 +418,7 @@ function PlasmicProductAndService2__RenderFunc(props: {
                 className={classNames(
                   projectcss.all,
                   projectcss.__wab_text,
-                  sty.text__s4Hgm
+                  sty.text__tk3F
                 )}
               >
                 {
@@ -427,11 +427,51 @@ function PlasmicProductAndService2__RenderFunc(props: {
               </div>
               {false ? (
                 <IconIcon
-                  className={classNames(projectcss.all, sty.svg__bIjbq)}
+                  className={classNames(projectcss.all, sty.svg___9YXSe)}
                   role={"img"}
                 />
               ) : null}
             </Stack__>
+            {(
+              hasVariant(globalVariants, "screen", "mobileOnly") ? true : false
+            ) ? (
+              <Stack__
+                as={PlasmicLink__}
+                hasGap={true}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.a,
+                  sty.link__f5ZZd
+                )}
+                component={Link}
+                href={`/Fuel Service Construction`}
+                platform={"nextjs"}
+              >
+                {false ? (
+                  <IconIcon
+                    className={classNames(projectcss.all, sty.svg__rjx4C)}
+                    role={"img"}
+                  />
+                ) : null}
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__aneU5
+                  )}
+                >
+                  {
+                    "\u0e07\u0e32\u0e19\u0e01\u0e48\u0e2d\u0e2a\u0e23\u0e49\u0e32\u0e07\u0e2a\u0e16\u0e32\u0e19\u0e35\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23\u0e19\u0e49\u0e33\u0e21\u0e31\u0e19\u0e04\u0e23\u0e1a\u0e27\u0e07\u0e08\u0e23"
+                  }
+                </div>
+                {false ? (
+                  <IconIcon
+                    className={classNames(projectcss.all, sty.svg__q2PXc)}
+                    role={"img"}
+                  />
+                ) : null}
+              </Stack__>
+            ) : null}
           </Stack__>
           <Stack__
             as={"div"}
@@ -1808,7 +1848,7 @@ const PlasmicDescendants = {
     "header3",
     "bannerHeader",
     "h1",
-    "subHeader",
+    "subHeader2",
     "foreground",
     "columns",
     "picture2",
@@ -1819,7 +1859,7 @@ const PlasmicDescendants = {
   header3: ["header3"],
   bannerHeader: ["bannerHeader", "h1"],
   h1: ["h1"],
-  subHeader: ["subHeader"],
+  subHeader2: ["subHeader2"],
   foreground: ["foreground", "columns"],
   columns: ["columns"],
   picture2: ["picture2"],
@@ -1835,7 +1875,7 @@ type NodeDefaultElementType = {
   header3: typeof Header3;
   bannerHeader: "div";
   h1: "h1";
-  subHeader: "div";
+  subHeader2: "div";
   foreground: "div";
   columns: "div";
   picture2: "div";
@@ -1907,7 +1947,7 @@ export const PlasmicProductAndService2 = Object.assign(
     header3: makeNodeComponent("header3"),
     bannerHeader: makeNodeComponent("bannerHeader"),
     h1: makeNodeComponent("h1"),
-    subHeader: makeNodeComponent("subHeader"),
+    subHeader2: makeNodeComponent("subHeader2"),
     foreground: makeNodeComponent("foreground"),
     columns: makeNodeComponent("columns"),
     picture2: makeNodeComponent("picture2"),

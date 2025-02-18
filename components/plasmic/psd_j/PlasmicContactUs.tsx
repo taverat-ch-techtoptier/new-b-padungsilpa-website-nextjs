@@ -60,17 +60,14 @@ import {
 } from "@plasmicapp/react-web/lib/host";
 
 import Header3 from "../../Header3"; // plasmic-import: Fs6IO6-MbSpr/component
+import ContactSectionFooterTop from "../../ContactSectionFooterTop"; // plasmic-import: 4arliTQcAY3d/component
 import Footer2 from "../../Footer2"; // plasmic-import: 9pDOvBRTOpt9/component
-
-import { useScreenVariants as useScreenVariants_2YPqM3KDWg } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: 2yPqM3-kD-WG/globalVariant
 
 import "@plasmicapp/react-web/lib/plasmic.css";
 
 import plasmic_antd_5_hostless_css from "../antd_5_hostless/plasmic.module.css"; // plasmic-import: ohDidvG9XsCeFumugENU3J/projectcss
 import projectcss from "./plasmic.module.css"; // plasmic-import: wauR2tk1hPNKxeSBCX7ndF/projectcss
 import sty from "./PlasmicContactUs.module.css"; // plasmic-import: B8gJI3-AqLm0/css
-
-import IconIcon from "./icons/PlasmicIcon__Icon"; // plasmic-import: 8DjHUJI81s9x/icon
 
 createPlasmicElementProxy;
 
@@ -86,11 +83,7 @@ export const PlasmicContactUs__ArgProps = new Array<ArgPropType>();
 export type PlasmicContactUs__OverridesType = {
   root?: Flex__<"div">;
   header3?: Flex__<typeof Header3>;
-  columns?: Flex__<"div">;
-  img?: Flex__<typeof PlasmicImg__>;
-  h2?: Flex__<"h2">;
-  textarea?: Flex__<"textarea">;
-  link?: Flex__<"a"> & Partial<LinkProps>;
+  contactSectionFooterTop?: Flex__<typeof ContactSectionFooterTop>;
   footer2?: Flex__<typeof Footer2>;
 };
 
@@ -134,10 +127,6 @@ function PlasmicContactUs__RenderFunc(props: {
   const refsRef = React.useRef({});
   const $refs = refsRef.current;
 
-  const globalVariants = ensureGlobalVariants({
-    screen: useScreenVariants_2YPqM3KDWg()
-  });
-
   return (
     <React.Fragment>
       <Head></Head>
@@ -172,187 +161,15 @@ function PlasmicContactUs__RenderFunc(props: {
             className={classNames("__wab_instance", sty.header3)}
           />
 
-          <Stack__
-            as={"div"}
-            hasGap={true}
-            className={classNames(projectcss.all, sty.freeBox__vtsm7)}
-          >
-            <div className={classNames(projectcss.all, sty.freeBox__frhWb)}>
-              <Stack__
-                as={"div"}
-                data-plasmic-name={"columns"}
-                data-plasmic-override={overrides.columns}
-                hasGap={true}
-                className={classNames(projectcss.all, sty.columns)}
-              >
-                <div className={classNames(projectcss.all, sty.column__jOjPd)}>
-                  <PlasmicImg__
-                    data-plasmic-name={"img"}
-                    data-plasmic-override={overrides.img}
-                    alt={""}
-                    className={classNames(sty.img)}
-                    displayHeight={"100%"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"100%"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"100%"}
-                    loading={"lazy"}
-                    src={{
-                      src: "/plasmic/psd_j/images/realstateConatctUsJpg.jpg",
-                      fullWidth: 1920,
-                      fullHeight: 1275,
-                      aspectRatio: undefined
-                    }}
-                  />
-                </div>
-                <div className={classNames(projectcss.all, sty.column___6AJul)}>
-                  <Stack__
-                    as={"div"}
-                    hasGap={true}
-                    className={classNames(projectcss.all, sty.freeBox__jaez3)}
-                  >
-                    <h2
-                      data-plasmic-name={"h2"}
-                      data-plasmic-override={overrides.h2}
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.h2,
-                        projectcss.__wab_text,
-                        sty.h2
-                      )}
-                    >
-                      {"Get in touch."}
-                    </h2>
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__pt7MG
-                      )}
-                    >
-                      {
-                        "A euismod eros a hendrerit tristique suscipit sit aptent dolor adipiscing inceptos cras ullamcorper a vivamus parturient."
-                      }
-                    </div>
-                    <div
-                      className={classNames(projectcss.all, sty.freeBox__cj9X0)}
-                    >
-                      <Stack__
-                        as={"div"}
-                        hasGap={true}
-                        className={classNames(
-                          projectcss.all,
-                          sty.freeBox__nzxlp
-                        )}
-                      >
-                        <input
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.input,
-                            sty.textInput__oj5Jd
-                          )}
-                          placeholder={"First Name"}
-                          size={1}
-                          type={"text"}
-                          value={""}
-                        />
+          <ContactSectionFooterTop
+            data-plasmic-name={"contactSectionFooterTop"}
+            data-plasmic-override={overrides.contactSectionFooterTop}
+            className={classNames(
+              "__wab_instance",
+              sty.contactSectionFooterTop
+            )}
+          />
 
-                        <input
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.input,
-                            sty.textInput__x5GHp
-                          )}
-                          placeholder={"Last Name"}
-                          size={1}
-                          type={"text"}
-                          value={""}
-                        />
-                      </Stack__>
-                      <input
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.input,
-                          sty.textInput__jbGYc
-                        )}
-                        placeholder={"Email address"}
-                        size={1}
-                        type={"text"}
-                        value={""}
-                      />
-
-                      <input
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.input,
-                          sty.textInput__zj3L
-                        )}
-                        placeholder={"Phone number"}
-                        size={1}
-                        type={"text"}
-                        value={""}
-                      />
-
-                      <textarea
-                        data-plasmic-name={"textarea"}
-                        data-plasmic-override={overrides.textarea}
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.textarea,
-                          sty.textarea
-                        )}
-                        placeholder={"Message"}
-                        value={""}
-                      />
-
-                      <Stack__
-                        as={PlasmicLink__}
-                        data-plasmic-name={"link"}
-                        data-plasmic-override={overrides.link}
-                        hasGap={true}
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.a,
-                          sty.link
-                        )}
-                        component={Link}
-                        platform={"nextjs"}
-                      >
-                        {false ? (
-                          <IconIcon
-                            className={classNames(
-                              projectcss.all,
-                              sty.svg__rlGQl
-                            )}
-                            role={"img"}
-                          />
-                        ) : null}
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__eXvU
-                          )}
-                        >
-                          {"Send"}
-                        </div>
-                        {false ? (
-                          <IconIcon
-                            className={classNames(
-                              projectcss.all,
-                              sty.svg__lUYlS
-                            )}
-                            role={"img"}
-                          />
-                        ) : null}
-                      </Stack__>
-                    </div>
-                  </Stack__>
-                </div>
-              </Stack__>
-            </div>
-          </Stack__>
           <Footer2
             data-plasmic-name={"footer2"}
             data-plasmic-override={overrides.footer2}
@@ -365,22 +182,9 @@ function PlasmicContactUs__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: [
-    "root",
-    "header3",
-    "columns",
-    "img",
-    "h2",
-    "textarea",
-    "link",
-    "footer2"
-  ],
+  root: ["root", "header3", "contactSectionFooterTop", "footer2"],
   header3: ["header3"],
-  columns: ["columns", "img", "h2", "textarea", "link"],
-  img: ["img"],
-  h2: ["h2"],
-  textarea: ["textarea"],
-  link: ["link"],
+  contactSectionFooterTop: ["contactSectionFooterTop"],
   footer2: ["footer2"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
@@ -389,11 +193,7 @@ type DescendantsType<T extends NodeNameType> =
 type NodeDefaultElementType = {
   root: "div";
   header3: typeof Header3;
-  columns: "div";
-  img: typeof PlasmicImg__;
-  h2: "h2";
-  textarea: "textarea";
-  link: "a";
+  contactSectionFooterTop: typeof ContactSectionFooterTop;
   footer2: typeof Footer2;
 };
 
@@ -458,11 +258,7 @@ export const PlasmicContactUs = Object.assign(
   {
     // Helper components rendering sub-elements
     header3: makeNodeComponent("header3"),
-    columns: makeNodeComponent("columns"),
-    img: makeNodeComponent("img"),
-    h2: makeNodeComponent("h2"),
-    textarea: makeNodeComponent("textarea"),
-    link: makeNodeComponent("link"),
+    contactSectionFooterTop: makeNodeComponent("contactSectionFooterTop"),
     footer2: makeNodeComponent("footer2"),
 
     // Metadata about props expected for PlasmicContactUs
