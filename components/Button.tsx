@@ -20,7 +20,8 @@ import { HTMLElementRefOf } from "@plasmicapp/react-web";
 //
 // You can also stop extending from DefaultButtonProps altogether and have
 // total control over the props for your component.
-export interface ButtonProps extends DefaultButtonProps {}
+// eslint-disable-next-line @typescript-eslint/no-empty-object-type
+export interface ButtonProps extends DefaultButtonProps { }
 
 function Button_(props: ButtonProps, ref: HTMLElementRefOf<"div">) {
   // Use PlasmicButton to render this component as it was
